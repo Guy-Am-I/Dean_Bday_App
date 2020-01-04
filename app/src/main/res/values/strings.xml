@@ -3,4 +3,5 @@
     <string name="welcome_image_desc">Birthday Image</string>
     <string name="welcome_title">Happy Birthday Dean! Ready to Play?</string>
     <string name="start_game">Lets Go!</string>
+    <string name="title_activity_begin_game">begin_game</string>
 </resources>
