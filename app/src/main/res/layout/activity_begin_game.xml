@@ -48,6 +48,7 @@
             android:textSize="35sp"
             android:padding="16dp"
             android:text="I'm Ready!"
+            android:onClick="goToTopics"
             android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

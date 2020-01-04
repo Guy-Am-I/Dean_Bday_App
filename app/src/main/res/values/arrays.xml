@@ -3,4 +3,17 @@
     <string-array name="initial_questions">
         <item>@string/initial_question_1</item>
     </string-array>
+    <string-array name="topics">
+        <item>@string/fantasy</item>
+        <item>@string/books</item>
+        <item>@string/math</item>
+        <item>@string/music</item>
+        <item>@string/geography</item>
+        <item>@string/inventions</item>
+        <item>@string/sports</item>
+        <item>@string/computers</item>
+        <item>@string/historical_figures</item>
+        <item>@string/superheroes</item>
+        <item>@string/games</item>
+    </string-array>
 </resources>

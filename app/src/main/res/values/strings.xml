@@ -12,5 +12,18 @@
 
     <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string>
 
+    <string name="fantasy">Fantasy</string>
+    <string name="games">Games</string>
+    <string name="superheroes">Superheroes</string>
+    <string name="historical_figures">Historical Figures</string>
+    <string name="inventions">Inventions</string>
+    <string name="math">Math Problems</string>
+    <string name="computers">Computer Science</string>
+    <string name="geography">Geography</string>
+    <string name="music">Songs and Music</string>
+    <string name="sports">Sports</string>
+    <string name="books">Classical Books</string>
+
+
 
 </resources>
