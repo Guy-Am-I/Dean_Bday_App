@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TopicsActivity"></activity>
+        <activity android:name=".Topic_Questions"></activity>
+        <activity android:name=".TopicsActivity" />
         <activity android:name=".BeginGame" />
         <activity android:name=".WelcomeActivity">
             <intent-filter>

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -11,20 +12,32 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.TopicViewHolder> {
 
-    private String[] topics;
-    public TopicsListAdapter(String[] topics){
-        this.topics = topics;
-        notifyDataSetChanged();
+    private Topic[] topics;
+    private final TopicsListAdapterOnClickHandler mClickHandler;
+
+    public interface TopicsListAdapterOnClickHandler{
+        void onClick(Question[] questions);
     }
 
-    public class TopicViewHolder extends RecyclerView.ViewHolder {
+    public TopicsListAdapter(TopicsListAdapterOnClickHandler handler){
+        mClickHandler = handler;
+    }
+
+    public class TopicViewHolder extends RecyclerView.ViewHolder implements OnClickListener {
         private TextView topic;
 
         public TopicViewHolder(View view){
             super(view);
             topic = view.findViewById(R.id.topic);
+            view.setOnClickListener(this);
         }
 
+        @Override
+        public void onClick(View view) {
+            int adapterPosition = getAdapterPosition();
+            Question[] topic_questions = topics[adapterPosition].getQuestions();
+            mClickHandler.onClick(topic_questions);
+        }
     }
 
     @NonNull
@@ -41,7 +54,7 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
 
     @Override
     public void onBindViewHolder(@NonNull TopicViewHolder holder, int position) {
-        holder.topic.setText(topics[position]);
+        holder.topic.setText(topics[position].getTitle());
     }
 
     @Override
@@ -49,4 +62,9 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
         if(topics == null) return 0;
         return topics.length;
     }
+    public void setTopicData(Topic[] topicData) {
+        this.topics = topicData;
+        notifyDataSetChanged();
+    }
+
 }
