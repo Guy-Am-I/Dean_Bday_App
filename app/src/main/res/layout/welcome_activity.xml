@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_app_lightish"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/title_layout">
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/main_app_dark"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_title"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@drawable/image_border"
+            android:fontFamily="serif"
+            android:padding="30dp"
+            android:text="@string/start_game"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/image_border"
+        android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/welcome_image"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/welcome_image_desc"
+                android:scaleType="centerInside"
+                android:src="@drawable/dean_birthday" />
+    </LinearLayout>
+
+</LinearLayout>
