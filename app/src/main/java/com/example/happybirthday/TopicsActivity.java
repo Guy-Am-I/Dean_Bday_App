@@ -26,7 +26,7 @@ public class TopicsActivity extends AppCompatActivity implements TopicsListAdapt
         String[] topic_titles = getResources().getStringArray(R.array.topics);
         Topic[] topics = new Topic[topic_titles.length];
         for(int i = 0; i < topic_titles.length; i++){
-            Question[] topic_questions = {new Question("q"+i, "a="+i, topic_titles[i])};
+            Question[] topic_questions = {new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i)};
             topics[i] = new Topic(topic_titles[i], topic_questions);
         }
 
@@ -43,8 +43,24 @@ public class TopicsActivity extends AppCompatActivity implements TopicsListAdapt
 
     @Override
     public void onClick(Question[] questions) {
-        //TODO launch new questions list adapter activity with questions
-        startActivity(new Intent(this, Topic_Questions.class));
+        //TODO fix this bit of code to pass question[] object instead
+        Intent startQuestionsActivity = new Intent(this, Topic_Questions.class);
+        //pass array of strings including questions
+        String[] question_array = new String[questions.length];
+        String[] answer_array = new String[questions.length];
+        boolean[] is_answered_array = new boolean[questions.length];
+        for(int i = 0; i<questions.length; i++) {
+            question_array[i] = questions[i].getQuestion();
+            answer_array[i] = questions[i].getAnswer();
+            is_answered_array[i] = questions[i].getIsAnswered();
+        }
+        startQuestionsActivity.putExtra("QUESTIONS", question_array);
+        startQuestionsActivity.putExtra("ANSWERS", answer_array);
+        startQuestionsActivity.putExtra("IS_ANSWERED", is_answered_array);
+
+        Log.d("Topic", "Sending intent");
+
+        startActivity(startQuestionsActivity);
     }
 
     @Override

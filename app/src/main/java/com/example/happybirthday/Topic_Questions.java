@@ -4,14 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
 
 public class Topic_Questions extends AppCompatActivity {
 
     private RecyclerView questionsRV;
     private QuestionsListAdapter mAdapter;
     private QuestionManager manager;
+    private Question[] topic_questions;
+
+    private EditText guess;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,14 +27,32 @@ public class Topic_Questions extends AppCompatActivity {
 
         questionsRV = (RecyclerView) findViewById(R.id.questions_list);
 
-        Question[] questions = {new Question("1", "2", "3"), new Question("!", "2", "3")};
-        mAdapter = new QuestionsListAdapter(questions);
+        Intent topicThatStarted = getIntent();
+        parseStringArraysToQuestion(topicThatStarted);
+
+        Log.d("Questions", "Initializing adapter");
+        mAdapter = new QuestionsListAdapter(topic_questions);
         questionsRV.setAdapter(mAdapter);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         questionsRV.setLayoutManager(linearLayoutManager);
         questionsRV.setHasFixedSize(true);
 
+    }
+    public void parseStringArraysToQuestion(Intent topicIntent){
+        Log.d("Questions", "parsing intent extras");
+        String[] questions = topicIntent.getStringArrayExtra("QUESTIONS");
+        String[] answers = topicIntent.getStringArrayExtra("ANSWERS");
+        boolean[] is_answered = topicIntent.getBooleanArrayExtra("IS_ANSWERED");
+
+        topic_questions = new Question[questions.length];
+
+        for(int i = 0; i < questions.length; i++){
+            Question question = new Question(questions[i], answers[i], is_answered[i]);
+            topic_questions[i] = question;
+        }
+    }
+    public void submit_answer(View view){
     }
 
     @Override
