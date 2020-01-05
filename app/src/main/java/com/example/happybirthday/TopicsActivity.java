@@ -111,11 +111,12 @@ public class TopicsActivity extends AppCompatActivity implements TopicsListAdapt
         //change to receive questions from resource
         String[] topic_titles = getResources().getStringArray(R.array.topics);
         String[] topic_clues = getResources().getStringArray(R.array.clues);
-        int[] topic_res = getResources().getIntArray(R.array.topic_image_res);
+        String[] topic_res = getResources().getStringArray(R.array.topic_image_res);
 
         for(int i = 0; i < topic_titles.length; i++){
-            Question[] topic_questions = {new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i), new Question("q"+i, "a="+i)};
+            Question[] topic_questions = {new Question("q"+i, ""+i), new Question("q"+i, ""+i), new Question("q"+i, ""+i), new Question("q"+i, ""+i), new Question("q"+i, ""+i), new Question("q"+i, ""+i)};
             topics[i] = new Topic(topic_titles[i], topic_questions, topic_res[i], topic_clues[i]);
+
         }
     }
 }

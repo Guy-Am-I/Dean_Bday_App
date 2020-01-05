@@ -3,14 +3,16 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content" android:background="@color/main_app_lightish">
 
-    <!-- TODO add background images for each of the 10 itmes -->
     <ImageView
         android:id="@+id/topic_image"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:adjustViewBounds="true"
+        android:background="@drawable/image_border"
+        android:padding="5dp"
         android:contentDescription="Topic Image"
         android:scaleType="fitXY" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

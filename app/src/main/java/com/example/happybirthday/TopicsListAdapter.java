@@ -77,7 +77,8 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
     @Override
     public void onBindViewHolder(@NonNull TopicViewHolder holder, int position) {
         holder.topic.setText(topics[position].getTitle());
-        holder.topic_image.setImageResource(topics[position].getImage_resource());
+
+        holder.topic_image.setImageResource(getTopicImage(topics[position].getImage_resource()));
     }
 
     @Override
@@ -88,6 +89,35 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
     public void setTopicData(Topic[] topicData) {
         this.topics = topicData;
         notifyDataSetChanged();
+    }
+
+    public int getTopicImage(String path){
+        switch (path) {
+            case "fantasy":
+                return R.drawable.fantasy;
+            case "books":
+                return  R.drawable.books;
+            case "math":
+                return R.drawable.math;
+            case "sports":
+                return R.drawable.sports;
+            case "computer":
+                return R.drawable.computer;
+            case "historical":
+                return R.drawable.historical;
+            case "geography":
+                return R.drawable.geography;
+            case "invention":
+                return R.drawable.invention;
+            case "superhero":
+                return R.drawable.superhero;
+            case "games":
+                return R.drawable.games;
+            case "music":
+                return R.drawable.music;
+            default:
+                return R.drawable.guy_am_i;
+        }
     }
 
 }

@@ -10,8 +10,8 @@
 
     <string name="rules">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsa laboriosam quasi sunt vel veritatis! Accusamus asperiores at, deserunt dolorem enim eum eveniet labore nihil omnis pariatur reprehenderit, sint tempora.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi debitis ex fugit magni molestiae optio totam! Dolore ea harum id, illo incidunt itaque iure minus nihil nobis odit sapiente, ut?</string>
 
-    <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string>
 
+    <!--TOPICS-->
     <string name="fantasy">Fantasy</string>
     <string name="games">Games</string>
     <string name="superheroes">Superheroes</string>
@@ -25,17 +25,18 @@
     <string name="books">Classical Books</string>
 
     <!-- CLUES FOR TOPICS -->
-    <string name="fantasy_clue"></string>
-    <string name="games_clue">Games</string>
-    <string name="superheroes_clue">Superheroes</string>
-    <string name="historical_figures_clue">Historical Figures</string>
-    <string name="inventions_clue">Inventions</string>
-    <string name="math_clue">Math Problems</string>
-    <string name="computers_clue">Computer Science</string>
-    <string name="geography_clue">Geography</string>
-    <string name="music_clue">Songs and Music</string>
-    <string name="sports_clue">Sports</string>
-    <string name="books_clue">Classical Books</string>
+    <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string>
+    <string name="fantasy_clue">A box without hinges, key or lid. Yet golden treasure inside is hid</string>
+    <string name="games_clue">Coal in my belly, Steel on my feet; When I get hot, it\'s time to eat</string>
+    <string name="superheroes_clue">I come in different sizes, but am always exactly 1 foot long</string>
+    <string name="historical_figures_clue">Atari, PARC, NeXT, Pixar</string>
+    <string name="inventions_clue">Seek the white plaque in thy dwelling</string>
+    <string name="math_clue">Seven in a row to earn my wealth, but make me dirty and only half shall I pay</string>
+    <string name="computers_clue">I have water put in me, but I am not a bath. I am often seen on Valentines day but I am not a box</string>
+    <string name="geography_clue">I am the keeper of that which is rarely needed, I hold what you desire for future use</string>
+    <string name="music_clue">Go back in time to the day you were born, there I lie next to many more</string>
+    <string name="sports_clue">To keep your notes at eye level, simply stab we with the pin\'s navel</string>
+    <string name="books_clue">Bright like diamond, hard like rock; You like me most when I am in a block</string>
 
 
 </resources>

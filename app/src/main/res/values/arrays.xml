@@ -29,17 +29,17 @@
         <item>@string/superheroes_clue</item>
         <item>@string/games_clue</item>
     </string-array>
-    <integer-array name="topic_image_res">
-        <item>@drawable/fantasy</item>
-        <item>@drawable/books</item>
-        <item>@drawable/math</item>
-        <item>@drawable/music</item>
-        <item>@drawable/geography</item>
-        <item>@drawable/invention</item>
-        <item>@drawable/sports</item>
-        <item>@drawable/computer</item>
-        <item>@drawable/historical</item>
-        <item>@drawable/superhero</item>
-        <item>@drawable/games</item>
-    </integer-array>
+    <string-array name="topic_image_res">
+        <item>fantasy</item>
+        <item>books</item>
+        <item>math</item>
+        <item>music</item>
+        <item>geography</item>
+        <item>invention</item>
+        <item>sports</item>
+        <item>computer</item>
+        <item>historical</item>
+        <item>superhero</item>
+        <item>games</item>
+    </string-array>
 </resources>
