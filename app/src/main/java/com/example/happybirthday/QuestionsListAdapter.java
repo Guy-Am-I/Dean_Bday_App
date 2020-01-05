@@ -6,13 +6,11 @@ import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -50,7 +48,6 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
             if(guess_ventured.equals(quest.getAnswer())){
                 quest.setAnswered(true);
                 checkbox.setImageResource(R.drawable.thumbs_up_foreground);
-
             }
         }
     }
@@ -63,7 +60,6 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
         LayoutInflater inflater = LayoutInflater.from(context);
 
         View view = inflater.inflate(layoutID, parent, false);
-        Log.d("Adapter","Created View HOlder");
         return new QuestionsListAdapter.QuestionViewHolder(view);
     }
 

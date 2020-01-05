@@ -24,5 +24,18 @@
     <string name="sports">Sports</string>
     <string name="books">Classical Books</string>
 
+    <!-- CLUES FOR TOPICS -->
+    <string name="fantasy_clue"></string>
+    <string name="games_clue">Games</string>
+    <string name="superheroes_clue">Superheroes</string>
+    <string name="historical_figures_clue">Historical Figures</string>
+    <string name="inventions_clue">Inventions</string>
+    <string name="math_clue">Math Problems</string>
+    <string name="computers_clue">Computer Science</string>
+    <string name="geography_clue">Geography</string>
+    <string name="music_clue">Songs and Music</string>
+    <string name="sports_clue">Sports</string>
+    <string name="books_clue">Classical Books</string>
+
 
 </resources>

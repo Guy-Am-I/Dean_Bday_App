@@ -15,10 +15,8 @@ public class Topic_Questions extends AppCompatActivity {
 
     private RecyclerView questionsRV;
     private QuestionsListAdapter mAdapter;
-    private QuestionManager manager;
     private Question[] topic_questions;
 
-    private EditText guess;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +28,6 @@ public class Topic_Questions extends AppCompatActivity {
         Intent topicThatStarted = getIntent();
         parseStringArraysToQuestion(topicThatStarted);
 
-        Log.d("Questions", "Initializing adapter");
         mAdapter = new QuestionsListAdapter(topic_questions);
         questionsRV.setAdapter(mAdapter);
 
@@ -40,7 +37,6 @@ public class Topic_Questions extends AppCompatActivity {
 
     }
     public void parseStringArraysToQuestion(Intent topicIntent){
-        Log.d("Questions", "parsing intent extras");
         String[] questions = topicIntent.getStringArrayExtra("QUESTIONS");
         String[] answers = topicIntent.getStringArrayExtra("ANSWERS");
         boolean[] is_answered = topicIntent.getBooleanArrayExtra("IS_ANSWERED");
@@ -52,8 +48,7 @@ public class Topic_Questions extends AppCompatActivity {
             topic_questions[i] = question;
         }
     }
-    public void submit_answer(View view){
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

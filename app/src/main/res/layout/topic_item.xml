@@ -4,25 +4,45 @@
     android:layout_height="wrap_content" android:background="@color/main_app_lightish">
 
     <!-- TODO add background images for each of the 10 itmes -->
+    <ImageView
+        android:id="@+id/topic_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Topic Image"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_behind_text"
+        android:alpha="0.25"/>
+
     <TextView
+        android:id="@+id/topic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/image_border"
+        android:paddingHorizontal="10dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/topic"
         android:textSize="25sp"
         android:textColor="@color/text_color"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="40dp"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
     <ImageButton
+        android:id="@+id/show_clue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@android:drawable/ic_dialog_info"
         android:padding="13dp"
+        android:foregroundGravity="center_vertical"
         android:layout_marginEnd="40dp"
         android:layout_margin="10dp"
         android:layout_alignParentRight="true"
+        android:onClick="showClue"
         android:background="@drawable/image_border"/>
+
 
 </RelativeLayout>
