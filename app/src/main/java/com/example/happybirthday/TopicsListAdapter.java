@@ -21,7 +21,7 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
     private final TopicsListAdapterOnClickHandler mClickHandler;
 
     public interface TopicsListAdapterOnClickHandler{
-        void onClick(Question[] questions);
+        void onClick(Question[] questions, int topicID);
         void showClue(String clue, int questions_answered, int total_questions);
     }
 
@@ -47,6 +47,7 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
                     //show popup window
                     int pos = getAdapterPosition();
                     Topic topic_chosen = topics[pos];
+                    Log.d("show clue", "answered: " + topic_chosen.getQuestions_answered() + "; out of: " + topic_chosen.getQuestions().length);
                     mClickHandler.showClue(topic_chosen.getClue(),
                             topic_chosen.getQuestions_answered(),
                             topic_chosen.getQuestions().length);
@@ -58,7 +59,7 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
         public void onClick(View view) {
             int adapterPosition = getAdapterPosition();
             Question[] topic_questions = topics[adapterPosition].getQuestions();
-            mClickHandler.onClick(topic_questions);
+            mClickHandler.onClick(topic_questions, topics[adapterPosition].getId());
         }
     }
 
@@ -77,8 +78,8 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
     @Override
     public void onBindViewHolder(@NonNull TopicViewHolder holder, int position) {
         holder.topic.setText(topics[position].getTitle());
-
         holder.topic_image.setImageResource(getTopicImage(topics[position].getImage_resource()));
+
     }
 
     @Override
@@ -115,6 +116,8 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
                 return R.drawable.games;
             case "music":
                 return R.drawable.music;
+            case "guys_fav":
+                return R.drawable.guys_fav;
             default:
                 return R.drawable.guy_am_i;
         }

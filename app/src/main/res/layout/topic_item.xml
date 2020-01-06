@@ -9,9 +9,10 @@
         android:layout_height="150dp"
         android:adjustViewBounds="true"
         android:background="@drawable/image_border"
-        android:padding="5dp"
+        android:padding="3dp"
         android:contentDescription="Topic Image"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:layout_marginVertical="8dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"

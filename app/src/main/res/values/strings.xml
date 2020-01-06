@@ -5,8 +5,9 @@
     <string name="start_game">Lets Go!</string>
     <string name="title_activity_begin_game">begin_game</string>
 
-    <string name="menu_questions_answered">0/100</string>
-    <string name="menu_balance">50</string>
+    <string name="menu_questions_answered">Total Answered</string>
+    <string name="menu_balance">Balance</string>
+    <string name="total_number_of_questions">100</string>
 
     <string name="rules">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsa laboriosam quasi sunt vel veritatis! Accusamus asperiores at, deserunt dolorem enim eum eveniet labore nihil omnis pariatur reprehenderit, sint tempora.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi debitis ex fugit magni molestiae optio totam! Dolore ea harum id, illo incidunt itaque iure minus nihil nobis odit sapiente, ut?</string>
 
@@ -23,6 +24,7 @@
     <string name="music">Songs and Music</string>
     <string name="sports">Sports</string>
     <string name="books">Classical Books</string>
+    <string name="guys_faves">Guy\'s Favorites</string>
 
     <!-- CLUES FOR TOPICS -->
     <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string>
@@ -37,6 +39,260 @@
     <string name="music_clue">Go back in time to the day you were born, there I lie next to many more</string>
     <string name="sports_clue">To keep your notes at eye level, simply stab we with the pin\'s navel</string>
     <string name="books_clue">Bright like diamond, hard like rock; You like me most when I am in a block</string>
+    <string name="guys_faves_clue">Enter guys faves clue</string>
 
+    <!-- TODO add all quiz questions (at least 100 :) -->
+    <!-- FANTASY QUESTIONS -->
+    <string name="fantasy_q1">a</string>
+    <string name="fantasy_q1_answer">b</string>
+    <string name="fantasy_q1_info">c</string>
+
+    <string name="fantasy_q2">d</string>
+    <string name="fantasy_q2_answer">e</string>
+    <string name="fantasy_q2_info">f</string>
+
+    <string name="fantasy_q3">aa</string>
+    <string name="fantasy_q3_answer">bb</string>
+    <string name="fantasy_q3_info">cc</string>
+
+    <string name="fantasy_q4">dd</string>
+    <string name="fantasy_q4_answer">ee</string>
+    <string name="fantasy_q4_info">ff</string>
+
+    <string name="fantasy_q5">abc</string>
+    <string name="fantasy_q5_answer">def</string>
+    <string name="fantasy_q5_info">ghi</string>
+
+
+    <!-- GAMES QUESTIONS -->
+    <string name="games_q1"></string>
+    <string name="games_q1_answer"></string>
+    <string name="games_q1_info"></string>
+
+    <string name="games_q2"></string>
+    <string name="games_q2_answer"></string>
+    <string name="games_q2_info"></string>
+
+    <string name="games_q3"></string>
+    <string name="games_q3_answer"></string>
+    <string name="games_q3_info"></string>
+
+    <string name="games_q4"></string>
+    <string name="games_q4_answer"></string>
+    <string name="games_q4_info"></string>
+
+    <string name="games_q5"></string>
+    <string name="games_q5_answer"></string>
+    <string name="games_q5_info"></string>
+
+    <!-- SUPERHEROES QUESTIONS -->
+    <string name="superhero_q1"></string>
+    <string name="superhero_q1_answer"></string>
+    <string name="superhero_q1_info"></string>
+
+    <string name="superhero_q2"></string>
+    <string name="superhero_q2_answer"></string>
+    <string name="superhero_q2_info"></string>
+
+    <string name="superhero_q3"></string>
+    <string name="superhero_q3_answer"></string>
+    <string name="superhero_q3_info"></string>
+
+    <string name="superhero_q4"></string>
+    <string name="superhero_q4_answer"></string>
+    <string name="superhero_q4_info"></string>
+
+    <string name="superhero_q5"></string>
+    <string name="superhero_q5_answer"></string>
+    <string name="superhero_q5_info"></string>
+
+    <!-- HISTORICAL FIGURES QUESTIONS -->
+    <string name="historical_q1"></string>
+    <string name="historical_q1_answer"></string>
+    <string name="historical_q1_info"></string>
+
+    <string name="historical_q2"></string>
+    <string name="historical_q2_answer"></string>
+    <string name="historical_q2_info"></string>
+
+    <string name="historical_q3"></string>
+    <string name="historical_q3_answer"></string>
+    <string name="historical_q3_info"></string>
+
+    <string name="historical_q4"></string>
+    <string name="historical_q4_answer"></string>
+    <string name="historical_q4_info"></string>
+
+    <string name="historical_q5"></string>
+    <string name="historical_q5_answer"></string>
+    <string name="historical_q5_info"></string>
+
+    <!-- INVENTIONS QUESTIONS -->
+    <string name="inventions_q1"></string>
+    <string name="inventions_q1_answer"></string>
+    <string name="inventions_q1_info"></string>
+
+    <string name="inventions_q2"></string>
+    <string name="inventions_q2_answer"></string>
+    <string name="inventions_q2_info"></string>
+
+    <string name="inventions_q3"></string>
+    <string name="inventions_q3_answer"></string>
+    <string name="inventions_q3_info"></string>
+
+    <string name="inventions_q4"></string>
+    <string name="inventions_q4_answer"></string>
+    <string name="inventions_q4_info"></string>
+
+    <string name="inventions_q5"></string>
+    <string name="inventions_q5_answer"></string>
+    <string name="inventions_q5_info"></string>
+
+    <!-- MATH QUESTIONS -->
+    <string name="math_q1"></string>
+    <string name="math_q1_answer"></string>
+    <string name="math_q1_info"></string>
+
+    <string name="math_q2"></string>
+    <string name="math_q2_answer"></string>
+    <string name="math_q2_info"></string>
+
+    <string name="math_q3"></string>
+    <string name="math_q3_answer"></string>
+    <string name="math_q3_info"></string>
+
+    <string name="math_q4"></string>
+    <string name="math_q4_answer"></string>
+    <string name="math_q4_info"></string>
+
+    <string name="math_q5"></string>
+    <string name="math_q5_answer"></string>
+    <string name="math_q5_info"></string>
+
+    <!-- COMPUTER QUESTIONS -->
+    <string name="computers_q1"></string>
+    <string name="computers_q1_answer"></string>
+    <string name="computers_q1_info"></string>
+
+    <string name="computers_q2"></string>
+    <string name="computers_q2_answer"></string>
+    <string name="computers_q2_info"></string>
+
+    <string name="computers_q3"></string>
+    <string name="computers_q3_answer"></string>
+    <string name="computers_q3_info"></string>
+
+    <string name="computers_q4"></string>
+    <string name="computers_q4_answer"></string>
+    <string name="computers_q4_info"></string>
+
+    <string name="computers_q5"></string>
+    <string name="computers_q5_answer"></string>
+    <string name="computers_q5_info"></string>
+
+    <!-- GEOGRAPHY QUESTIONS -->
+    <string name="geography_q1"></string>
+    <string name="geography_q1_answer"></string>
+    <string name="geography_q1_info"></string>
+
+    <string name="geography_q2"></string>
+    <string name="geography_q2_answer"></string>
+    <string name="geography_q2_info"></string>
+
+    <string name="geography_q3"></string>
+    <string name="geography_q3_answer"></string>
+    <string name="geography_q3_info"></string>
+
+    <string name="geography_q4"></string>
+    <string name="geography_q4_answer"></string>
+    <string name="geography_q4_info"></string>
+
+    <string name="geography_q5"></string>
+    <string name="geography_q5_answer"></string>
+    <string name="geography_q5_info"></string>
+
+    <!-- MUSIC QUESTIONS -->
+    <string name="music_q1"></string>
+    <string name="music_q1_answer"></string>
+    <string name="music_q1_info"></string>
+
+    <string name="music_q2"></string>
+    <string name="music_q2_answer"></string>
+    <string name="music_q2_info"></string>
+
+    <string name="music_q3"></string>
+    <string name="music_q3_answer"></string>
+    <string name="music_q3_info"></string>
+
+    <string name="music_q4"></string>
+    <string name="music_q4_answer"></string>
+    <string name="music_q4_info"></string>
+
+    <string name="music_q5"></string>
+    <string name="music_q5_answer"></string>
+    <string name="music_q5_info"></string>
+
+    <!-- SPORTS QUESTIONS -->
+    <string name="sports_q1"></string>
+    <string name="sports_q1_answer"></string>
+    <string name="sports_q1_info"></string>
+
+    <string name="sports_q2"></string>
+    <string name="sports_q2_answer"></string>
+    <string name="sports_q2_info"></string>
+
+    <string name="sports_q3"></string>
+    <string name="sports_q3_answer"></string>
+    <string name="sports_q3_info"></string>
+
+    <string name="sports_q4"></string>
+    <string name="sports_q4_answer"></string>
+    <string name="sports_q4_info"></string>
+
+    <string name="sports_q5"></string>
+    <string name="sports_q5_answer"></string>
+    <string name="sports_q5_info"></string>
+
+    <!-- BOOKS QUESTIONS -->
+    <string name="books_q1"></string>
+    <string name="books_q1_answer"></string>
+    <string name="books_q1_info"></string>
+
+    <string name="books_q2"></string>
+    <string name="books_q2_answer"></string>
+    <string name="books_q2_info"></string>
+
+    <string name="books_q3"></string>
+    <string name="books_q3_answer"></string>
+    <string name="books_q3_info"></string>
+
+    <string name="books_q4"></string>
+    <string name="books_q4_answer"></string>
+    <string name="books_q4_info"></string>
+
+    <string name="books_q5"></string>
+    <string name="books_q5_answer"></string>
+    <string name="books_q5_info"></string>
+
+    <!-- GUYS FAVES QUESTIONS -->
+    <string name="guy_q1"></string>
+    <string name="guy_q1_answer"></string>
+    <string name="guy_q1_info"></string>
+
+    <string name="guy_q2"></string>
+    <string name="guy_q2_answer"></string>
+    <string name="guy_q2_info"></string>
+
+    <string name="guy_q3"></string>
+    <string name="guy_q3_answer"></string>
+    <string name="guy_q3_info"></string>
+
+    <string name="guy_q4"></string>
+    <string name="guy_q4_answer"></string>
+    <string name="guy_q4_info"></string>
+
+    <string name="guy_q5"></string>
+    <string name="guy_q5_answer"></string>
+    <string name="guy_q5_info"></string>
 
 </resources>

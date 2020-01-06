@@ -1,6 +1,8 @@
 package com.example.happybirthday;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -19,9 +21,16 @@ import androidx.recyclerview.widget.RecyclerView;
 public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdapter.QuestionViewHolder>{
 
     private Question[] questions;
+    private final QuestionsListAdapterSubmitHandler mSubmitHandler;
 
-    public QuestionsListAdapter(Question[] questions){
-        this.questions = questions;
+    public QuestionsListAdapter(QuestionsListAdapterSubmitHandler mHandler){
+        this.mSubmitHandler = mHandler;
+    }
+
+
+    public interface QuestionsListAdapterSubmitHandler{
+        void submitAnswer(boolean isCorrect, String info);
+        void saveData(int questionID, int topicID);
     }
 
 
@@ -48,6 +57,14 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
             if(guess_ventured.equals(quest.getAnswer())){
                 quest.setAnswered(true);
                 checkbox.setImageResource(R.drawable.thumbs_up_foreground);
+                // DONE save data when answered correctly (questions answered) in shared preferences
+                mSubmitHandler.submitAnswer(true, quest.getInfo());
+                //update saved data for topic questions answered and question id answered
+                mSubmitHandler.saveData(quest.getId(), quest.getParentTopicID());
+
+            }
+            else {
+                mSubmitHandler.submitAnswer(false, quest.getInfo());
             }
         }
     }
@@ -68,9 +85,11 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
        holder.title.setText(questions[position].getQuestion());
        if(questions[position].getIsAnswered()){
            holder.checkbox.setImageResource(R.drawable.thumbs_up_foreground);
+           holder.guess.setText(questions[position].getAnswer());
        } else {
            holder.checkbox.setImageResource(R.drawable.question_mark_foreground);
        }
+
     }
 
     @Override
@@ -78,4 +97,10 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
         if(questions == null) return 0;
         return questions.length;
     }
+
+    public void setQuestionsData(Question[] questions) {
+        this.questions = questions;
+        notifyDataSetChanged();
+    }
+
 }

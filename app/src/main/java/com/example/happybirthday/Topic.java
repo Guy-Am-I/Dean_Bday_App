@@ -7,13 +7,20 @@ public class Topic {
     private String img_path;
     private String clue;
     private int questions_answered;
+    private int id;
 
 
-    public Topic(String title, Question[] questions, String path, String clue){
+    public Topic(String title, Question[] questions, String path, String clue, int id){
         this.title = title;
         this.questions = questions;
         this.img_path = path;
         this.clue = clue;
+        this.questions_answered = 0;
+        this.id = id;
+    }
+
+    public void setQuestions_answered(int questions_answered) {
+        this.questions_answered = questions_answered;
     }
 
     public Question[] getQuestions() {
@@ -34,5 +41,9 @@ public class Topic {
 
     public int getQuestions_answered() {
         return questions_answered;
+    }
+
+    public int getId() {
+        return id;
     }
 }

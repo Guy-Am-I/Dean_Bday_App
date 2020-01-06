@@ -15,6 +15,7 @@
         <item>@string/historical_figures</item>
         <item>@string/superheroes</item>
         <item>@string/games</item>
+        <item>@string/guys_faves</item>
     </string-array>
     <string-array name="clues">
         <item>@string/fantasy_clue</item>
@@ -28,6 +29,7 @@
         <item>@string/historical_figures_clue</item>
         <item>@string/superheroes_clue</item>
         <item>@string/games_clue</item>
+        <item>@string/guys_faves_clue</item>
     </string-array>
     <string-array name="topic_image_res">
         <item>fantasy</item>
@@ -41,5 +43,272 @@
         <item>historical</item>
         <item>superhero</item>
         <item>games</item>
+        <item>guys_fav</item>
+    </string-array>
+
+
+
+    <string-array name="fantasy_questions">
+        <item>@string/fantasy_q1</item>
+        <item>@string/fantasy_q2</item>
+        <item>@string/fantasy_q3</item>
+        <item>@string/fantasy_q4</item>
+        <item>@string/fantasy_q5</item>
+    </string-array>
+    <string-array name="fantasy_questions_answers">
+        <item>@string/fantasy_q1_answer</item>
+        <item>@string/fantasy_q2_answer</item>
+        <item>@string/fantasy_q3_answer</item>
+        <item>@string/fantasy_q4_answer</item>
+        <item>@string/fantasy_q5_answer</item>
+    </string-array>
+    <string-array name="fantasy_questions_info">
+        <item>@string/fantasy_q1_info</item>
+        <item>@string/fantasy_q2_info</item>
+        <item>@string/fantasy_q3_info</item>
+        <item>@string/fantasy_q4_info</item>
+        <item>@string/fantasy_q5_info</item>
+    </string-array>
+
+    <string-array name="books_questions">
+        <item>@string/books_q1</item>
+        <item>@string/books_q2</item>
+        <item>@string/books_q3</item>
+        <item>@string/books_q4</item>
+        <item>@string/books_q5</item>
+    </string-array>
+    <string-array name="books_questions_answers">
+        <item>@string/books_q1_answer</item>
+        <item>@string/books_q2_answer</item>
+        <item>@string/books_q3_answer</item>
+        <item>@string/books_q4_answer</item>
+        <item>@string/books_q5_answer</item>
+    </string-array>
+    <string-array name="books_questions_info">
+        <item>@string/books_q1_info</item>
+        <item>@string/books_q2_info</item>
+        <item>@string/books_q2_info</item>
+        <item>@string/books_q3_info</item>
+        <item>@string/books_q4_info</item>
+    </string-array>
+
+    <string-array name="math_questions">
+        <item>@string/math_q1</item>
+        <item>@string/math_q2</item>
+        <item>@string/math_q3</item>
+        <item>@string/math_q4</item>
+        <item>@string/math_q5</item>
+    </string-array>
+    <string-array name="math_questions_answers">
+        <item>@string/math_q1_answer</item>
+        <item>@string/math_q2_answer</item>
+        <item>@string/math_q3_answer</item>
+        <item>@string/math_q4_answer</item>
+        <item>@string/math_q5_answer</item>
+    </string-array>
+    <string-array name="math_questions_info">
+        <item>@string/math_q1_info</item>
+        <item>@string/math_q2_info</item>
+        <item>@string/math_q3_info</item>
+        <item>@string/math_q4_info</item>
+        <item>@string/math_q5_info</item>
+    </string-array>
+
+    <string-array name="music_questions">
+        <item>@string/music_q1</item>
+        <item>@string/music_q2</item>
+        <item>@string/music_q3</item>
+        <item>@string/music_q4</item>
+        <item>@string/music_q5</item>
+    </string-array>
+    <string-array name="music_questions_answers">
+        <item>@string/music_q1_answer</item>
+        <item>@string/music_q2_answer</item>
+        <item>@string/music_q3_answer</item>
+        <item>@string/music_q4_answer</item>
+        <item>@string/music_q5_answer</item>
+    </string-array>
+    <string-array name="music_questions_info">
+        <item>@string/music_q1_info</item>
+        <item>@string/music_q2_info</item>
+        <item>@string/music_q3_info</item>
+        <item>@string/music_q4_info</item>
+        <item>@string/music_q5_info</item>
+    </string-array>
+
+    <string-array name="geography_questions">
+        <item>@string/geography_q1</item>
+        <item>@string/geography_q2</item>
+        <item>@string/geography_q3</item>
+        <item>@string/geography_q4</item>
+        <item>@string/geography_q5</item>
+    </string-array>
+    <string-array name="geography_questions_answers">
+        <item>@string/geography_q1_answer</item>
+        <item>@string/geography_q2_answer</item>
+        <item>@string/geography_q3_answer</item>
+        <item>@string/geography_q4_answer</item>
+        <item>@string/geography_q5_answer</item>
+    </string-array>
+    <string-array name="geography_questions_info">
+        <item>@string/geography_q1_info</item>
+        <item>@string/geography_q2_info</item>
+        <item>@string/geography_q3_info</item>
+        <item>@string/geography_q4_info</item>
+        <item>@string/geography_q5_info</item>
+    </string-array>
+
+    <string-array name="invention_questions">
+        <item>@string/inventions_q1</item>
+        <item>@string/inventions_q2</item>
+        <item>@string/inventions_q3</item>
+        <item>@string/inventions_q4</item>
+        <item>@string/inventions_q5</item>
+    </string-array>
+    <string-array name="invention_questions_answers">
+        <item>@string/inventions_q1_answer</item>
+        <item>@string/inventions_q2_answer</item>
+        <item>@string/inventions_q3_answer</item>
+        <item>@string/inventions_q4_answer</item>
+        <item>@string/inventions_q5_answer</item>
+    </string-array>
+    <string-array name="invention_questions_info">
+        <item>@string/inventions_q1_info</item>
+        <item>@string/inventions_q2_info</item>
+        <item>@string/inventions_q3_info</item>
+        <item>@string/inventions_q4_info</item>
+        <item>@string/inventions_q5_info</item>
+    </string-array>
+
+    <string-array name="sports_questions">
+        <item>@string/sports_q1</item>
+        <item>@string/sports_q2</item>
+        <item>@string/sports_q3</item>
+        <item>@string/sports_q4</item>
+        <item>@string/sports_q5</item>
+    </string-array>
+    <string-array name="sports_questions_answers">
+        <item>@string/sports_q1_answer</item>
+        <item>@string/sports_q2_answer</item>
+        <item>@string/sports_q3_answer</item>
+        <item>@string/sports_q4_answer</item>
+        <item>@string/sports_q5_answer</item>
+    </string-array>
+    <string-array name="sports_questions_info">
+        <item>@string/sports_q1_info</item>
+        <item>@string/sports_q2_info</item>
+        <item>@string/sports_q3_info</item>
+        <item>@string/sports_q4_info</item>
+        <item>@string/sports_q5_info</item>
+    </string-array>
+
+    <string-array name="computer_questions">
+        <item>@string/computers_q1</item>
+        <item>@string/computers_q2</item>
+        <item>@string/computers_q3</item>
+        <item>@string/computers_q4</item>
+        <item>@string/computers_q5</item>
+    </string-array>
+    <string-array name="computer_questions_answers">
+        <item>@string/computers_q1_answer</item>
+        <item>@string/computers_q2_answer</item>
+        <item>@string/computers_q3_answer</item>
+        <item>@string/computers_q4_answer</item>
+        <item>@string/computers_q5_answer</item>
+    </string-array>
+    <string-array name="computer_questions_info">
+        <item>@string/computers_q1_info</item>
+        <item>@string/computers_q2_info</item>
+        <item>@string/computers_q3_info</item>
+        <item>@string/computers_q4_info</item>
+        <item>@string/computers_q5_info</item>
+    </string-array>
+
+    <string-array name="historical_questions">
+        <item>@string/historical_q1</item>
+        <item>@string/historical_q2</item>
+        <item>@string/historical_q3</item>
+        <item>@string/historical_q4</item>
+        <item>@string/historical_q5</item>
+    </string-array>
+    <string-array name="historical_questions_answers">
+        <item>@string/historical_q1_answer</item>
+        <item>@string/historical_q2_answer</item>
+        <item>@string/historical_q3_answer</item>
+        <item>@string/historical_q4_answer</item>
+        <item>@string/historical_q5_answer</item>
+    </string-array>
+    <string-array name="historical_questions_info">
+        <item>@string/historical_q1_info</item>
+        <item>@string/historical_q2_info</item>
+        <item>@string/historical_q3_info</item>
+        <item>@string/historical_q4_info</item>
+        <item>@string/historical_q5_info</item>
+    </string-array>
+
+    <string-array name="superhero_questions">
+        <item>@string/superhero_q1</item>
+        <item>@string/superhero_q2</item>
+        <item>@string/superhero_q3</item>
+        <item>@string/superhero_q4</item>
+        <item>@string/superhero_q5</item>
+    </string-array>
+    <string-array name="superhero_questions_answers">
+        <item>@string/superhero_q1_answer</item>
+        <item>@string/superhero_q2_answer</item>
+        <item>@string/superhero_q3_answer</item>
+        <item>@string/superhero_q4_answer</item>
+        <item>@string/superhero_q5_answer</item>
+    </string-array>
+    <string-array name="superhero_questions_info">
+        <item>@string/superhero_q1_info</item>
+        <item>@string/superhero_q2_info</item>
+        <item>@string/superhero_q3_info</item>
+        <item>@string/superhero_q4_info</item>
+        <item>@string/superhero_q5_info</item>
+    </string-array>
+
+    <string-array name="games_questions">
+        <item>@string/games_q1</item>
+        <item>@string/games_q2</item>
+        <item>@string/games_q3</item>
+        <item>@string/games_q4</item>
+        <item>@string/games_q5</item>
+    </string-array>
+    <string-array name="games_questions_answers">
+        <item>@string/games_q1_answer</item>
+        <item>@string/games_q2_answer</item>
+        <item>@string/games_q3_answer</item>
+        <item>@string/games_q4_answer</item>
+        <item>@string/games_q5_answer</item>
+    </string-array>
+    <string-array name="games_questions_info">
+        <item>@string/games_q1_info</item>
+        <item>@string/games_q2_info</item>
+        <item>@string/games_q3_info</item>
+        <item>@string/games_q4_info</item>
+        <item>@string/games_q5_info</item>
+    </string-array>
+
+    <string-array name="guy_questions">
+        <item>@string/guy_q1</item>
+        <item>@string/guy_q2</item>
+        <item>@string/guy_q3</item>
+        <item>@string/guy_q4</item>
+        <item>@string/guy_q5</item>
+    </string-array>
+    <string-array name="guy_questions_answers">
+        <item>@string/guy_q1_answer</item>
+        <item>@string/guy_q2_answer</item>
+        <item>@string/guy_q3_answer</item>
+        <item>@string/guy_q4_answer</item>
+        <item>@string/guy_q5_answer</item>
+    </string-array>
+    <string-array name="guy_questions_info">
+        <item>@string/guy_q1_info</item>
+        <item>@string/guy_q2_info</item>
+        <item>@string/guy_q3_info</item>
+        <item>@string/guy_q4_info</item>
+        <item>@string/guy_q5_info</item>
     </string-array>
 </resources>

@@ -2,6 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:panelFullBackground="@color/main_app_darkish"
+    android:background="@color/main_app_dark"
     xmlns:tools="http://schemas.android.com/tools">
 
     <item
@@ -15,5 +16,10 @@
         android:orderInCategory="100"
         app:showAsAction="ifRoom"
         android:id="@+id/balance"/>
+    <item
+        android:title=""
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:id="@+id/binary_digit_for_num"/>
 
 </menu>
