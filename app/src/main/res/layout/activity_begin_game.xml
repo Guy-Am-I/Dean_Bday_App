@@ -32,14 +32,17 @@
                 android:textColor="@color/text_color"
                 android:textSize="25sp" />
         </ScrollView>
-        <TextView
-            android:id="@+id/initial_question"
-            android:textSize="25sp"
-            android:text="@string/initial_question_1"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginVertical="40dp"
+        <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_info"
+            android:padding="13dp"
+            android:foregroundGravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="10dp"
+            android:onClick="showPopupClue"
+            android:background="@drawable/image_border"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
             android:padding="16dp"
             android:text="I'm Ready!"
             android:onClick="goToTopics"
+            android:layout_marginVertical="20dp"
             android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

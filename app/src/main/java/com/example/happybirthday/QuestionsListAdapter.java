@@ -31,6 +31,7 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
     public interface QuestionsListAdapterSubmitHandler{
         void submitAnswer(boolean isCorrect, String info);
         void saveData(int questionID, int topicID);
+        void showInfo(String info);
     }
 
 
@@ -54,18 +55,26 @@ public class QuestionsListAdapter extends RecyclerView.Adapter<QuestionsListAdap
         public void onClick(View view) {
             Question quest = questions[getAdapterPosition()];
             String guess_ventured = guess.getText().toString();
+
             if(guess_ventured.equals(quest.getAnswer())){
-                quest.setAnswered(true);
                 checkbox.setImageResource(R.drawable.thumbs_up_foreground);
                 // DONE save data when answered correctly (questions answered) in shared preferences
-                mSubmitHandler.submitAnswer(true, quest.getInfo());
-                //update saved data for topic questions answered and question id answered
-                mSubmitHandler.saveData(quest.getId(), quest.getParentTopicID());
 
+
+                //update saved data for topic questions answered and question id answered
+                if(quest.getIsAnswered()){
+                    mSubmitHandler.showInfo(quest.getInfo());
+                }
+                else {
+                    quest.setAnswered(true);
+                    mSubmitHandler.submitAnswer(true, quest.getInfo());
+                    mSubmitHandler.saveData(quest.getId(), quest.getParentTopicID());
+                }
             }
             else {
                 mSubmitHandler.submitAnswer(false, quest.getInfo());
             }
+
         }
     }
 

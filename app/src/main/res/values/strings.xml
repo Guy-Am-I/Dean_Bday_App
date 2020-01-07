@@ -4,18 +4,23 @@
     <string name="welcome_title">Happy Birthday Dean! Ready to Play?</string>
     <string name="start_game">Lets Go!</string>
     <string name="title_activity_begin_game">begin_game</string>
+    <string name="clues_pref_key">Clues</string>
 
-    <string name="menu_questions_answered">Total Answered</string>
-    <string name="menu_balance">Balance</string>
-    <string name="total_number_of_questions">100</string>
+    <string name="menu_questions_answered">Answered</string>
+    <string name="menu_pol">Pols</string>
+    <string name="menu_slap">Slaps</string>
+
+    <string name="total_answered_info">this is total number of questions you answered out of all questions</string>
+    <string name="pol_info">This is tha amount of pols you owe; 1 pol = 10 pushups</string>
+    <string name="slaps_info">This is the total slaps you owe in our newly created slap bet</string>
 
     <string name="rules">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsa laboriosam quasi sunt vel veritatis! Accusamus asperiores at, deserunt dolorem enim eum eveniet labore nihil omnis pariatur reprehenderit, sint tempora.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi debitis ex fugit magni molestiae optio totam! Dolore ea harum id, illo incidunt itaque iure minus nihil nobis odit sapiente, ut?</string>
 
 
     <!--TOPICS-->
-    <string name="fantasy">Fantasy</string>
+    <string name="pop_culture">Pop Culture</string>
     <string name="games">Games</string>
-    <string name="superheroes">Superheroes</string>
+    <string name="quotes">Quotes</string>
     <string name="historical_figures">Historical Figures</string>
     <string name="inventions">Inventions</string>
     <string name="math">Math Problems</string>
@@ -25,43 +30,65 @@
     <string name="sports">Sports</string>
     <string name="books">Classical Books</string>
     <string name="guys_faves">Guy\'s Favorites</string>
+    <string name="wildlife">Wildlife</string>
 
     <!-- CLUES FOR TOPICS -->
-    <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string>
-    <string name="fantasy_clue">A box without hinges, key or lid. Yet golden treasure inside is hid</string>
-    <string name="games_clue">Coal in my belly, Steel on my feet; When I get hot, it\'s time to eat</string>
-    <string name="superheroes_clue">I come in different sizes, but am always exactly 1 foot long</string>
-    <string name="historical_figures_clue">Atari, PARC, NeXT, Pixar</string>
-    <string name="inventions_clue">Seek the white plaque in thy dwelling</string>
-    <string name="math_clue">Seven in a row to earn my wealth, but make me dirty and only half shall I pay</string>
-    <string name="computers_clue">I have water put in me, but I am not a bath. I am often seen on Valentines day but I am not a box</string>
-    <string name="geography_clue">I am the keeper of that which is rarely needed, I hold what you desire for future use</string>
-    <string name="music_clue">Go back in time to the day you were born, there I lie next to many more</string>
-    <string name="sports_clue">To keep your notes at eye level, simply stab we with the pin\'s navel</string>
-    <string name="books_clue">Bright like diamond, hard like rock; You like me most when I am in a block</string>
-    <string name="guys_faves_clue">Enter guys faves clue</string>
+    <string name="initial_question_1">$ SOUS Q.W.E.R.T.Y</string> <!-- Underneath a keyboard -->
+    <string name="pop_culture_clue">A box without hinges, key or lid. Yet golden treasure inside is hid</string><!-- an egg-->
+    <string name="games_clue">Coal in my belly, Steel on my feet; When I get hot, it\'s time to eat</string><!-- grill/BBQ-->
+    <string name="quotes_clue">I come in different sizes, but am always exactly 1 foot long</string><!-- a shoe-->
+    <string name="historical_figures_clue">Atari, PARC, NeXT, Pixar</string><!--Steve Jobs -->
+    <string name="inventions_clue">Seek the white plaque in thy dwelling</string><!-- a whiteboard in my room which in turn will lead to a mailbox-->
+    <string name="math_clue">Seven in a row to earn my wealth, but make me dirty and only half shall I pay</string><!--canasta in a game of burako -->
+    <string name="computers_clue">I have water put in me, but I am not a bath. I am often seen on Valentines day but I am not a box</string><!-- flower vase-->
+    <string name="geography_clue">I am the keeper of that which is rarely needed, I hold what you desire for future use</string><!-- a storage unit/warehouse etc -->
+    <string name="music_clue">Go back in time to the day you were born, there I lie next to many more</string><!-- picture taken at date of birth; referenced to photo album-->
+    <string name="sports_clue">To keep your notes at eye level, simply stab we with the pin\'s navel</string><!-- a notice board with tacks -->
+    <string name="books_clue">Bright like diamond, hard like rock; You like me most when I am in a block</string><!-- ice -->
+    <string name="guys_faves_clue">Enter clue for poster</string><!--Some Poster in the house-->
+    <string name="wildlife_clue">Enter clue for car</string>
 
     <!-- TODO add all quiz questions (at least 100 :) -->
-    <!-- FANTASY QUESTIONS -->
-    <string name="fantasy_q1">a</string>
-    <string name="fantasy_q1_answer">b</string>
-    <string name="fantasy_q1_info">c</string>
+    <!-- Pop Culture QUESTIONS -->
+    <string name="pop_culture_q1"></string>
+    <string name="pop_culture_q1_answer"></string>
+    <string name="pop_culture_q1_info"></string>
 
-    <string name="fantasy_q2">d</string>
-    <string name="fantasy_q2_answer">e</string>
-    <string name="fantasy_q2_info">f</string>
+    <string name="pop_culture_q2"></string>
+    <string name="pop_culture_q2_answer"></string>
+    <string name="pop_culture_q2_info"></string>
 
-    <string name="fantasy_q3">aa</string>
-    <string name="fantasy_q3_answer">bb</string>
-    <string name="fantasy_q3_info">cc</string>
+    <string name="pop_culture_q3"></string>
+    <string name="pop_culture_q3_answer"></string>
+    <string name="pop_culture_q3_info"></string>
 
-    <string name="fantasy_q4">dd</string>
-    <string name="fantasy_q4_answer">ee</string>
-    <string name="fantasy_q4_info">ff</string>
+    <string name="pop_culture_q4"></string>
+    <string name="pop_culture_q4_answer"></string>
+    <string name="pop_culture_q4_info"></string>
 
-    <string name="fantasy_q5">abc</string>
-    <string name="fantasy_q5_answer">def</string>
-    <string name="fantasy_q5_info">ghi</string>
+    <string name="pop_culture_q5"></string>
+    <string name="pop_culture_q5_answer"></string>
+    <string name="pop_culture_q5_info"></string>
+
+    <string name="pop_culture_q6"></string>
+    <string name="pop_culture_q6_answer"></string>
+    <string name="pop_culture_q6_info"></string>
+
+    <string name="pop_culture_q7"></string>
+    <string name="pop_culture_q7_answer"></string>
+    <string name="pop_culture_q7_info"></string>
+
+    <string name="pop_culture_q8"></string>
+    <string name="pop_culture_q8_answer"></string>
+    <string name="pop_culture_q8_info"></string>
+
+    <string name="pop_culture_q9"></string>
+    <string name="pop_culture_q9_answer"></string>
+    <string name="pop_culture_q9_info"></string>
+
+    <string name="pop_culture_q10"></string>
+    <string name="pop_culture_q10_answer"></string>
+    <string name="pop_culture_q10_info"></string>
 
 
     <!-- GAMES QUESTIONS -->
@@ -85,26 +112,66 @@
     <string name="games_q5_answer"></string>
     <string name="games_q5_info"></string>
 
+    <string name="games_q6"></string>
+    <string name="games_q6_answer"></string>
+    <string name="games_q6_info"></string>
+
+    <string name="games_q7"></string>
+    <string name="games_q7_answer"></string>
+    <string name="games_q7_info"></string>
+
+    <string name="games_q8"></string>
+    <string name="games_q8_answer"></string>
+    <string name="games_q8_info"></string>
+
+    <string name="games_q9"></string>
+    <string name="games_q9_answer"></string>
+    <string name="games_q9_info"></string>
+
+    <string name="games_q10"></string>
+    <string name="games_q10_answer"></string>
+    <string name="games_q10_info"></string>
+
     <!-- SUPERHEROES QUESTIONS -->
-    <string name="superhero_q1"></string>
-    <string name="superhero_q1_answer"></string>
-    <string name="superhero_q1_info"></string>
+    <string name="quotes_q1"></string>
+    <string name="quotes_q1_answer"></string>
+    <string name="quotes_q1_info"></string>
 
-    <string name="superhero_q2"></string>
-    <string name="superhero_q2_answer"></string>
-    <string name="superhero_q2_info"></string>
+    <string name="quotes_q2"></string>
+    <string name="quotes_q2_answer"></string>
+    <string name="quotes_q2_info"></string>
 
-    <string name="superhero_q3"></string>
-    <string name="superhero_q3_answer"></string>
-    <string name="superhero_q3_info"></string>
+    <string name="quotes_q3"></string>
+    <string name="quotes_q3_answer"></string>
+    <string name="quotes_q3_info"></string>
 
-    <string name="superhero_q4"></string>
-    <string name="superhero_q4_answer"></string>
-    <string name="superhero_q4_info"></string>
+    <string name="quotes_q4"></string>
+    <string name="quotes_q4_answer"></string>
+    <string name="quotes_q4_info"></string>
 
-    <string name="superhero_q5"></string>
-    <string name="superhero_q5_answer"></string>
-    <string name="superhero_q5_info"></string>
+    <string name="quotes_q5"></string>
+    <string name="quotes_q5_answer"></string>
+    <string name="quotes_q5_info"></string>
+
+    <string name="quotes_q6"></string>
+    <string name="quotes_q6_answer"></string>
+    <string name="quotes_q6_info"></string>
+
+    <string name="quotes_q7"></string>
+    <string name="quotes_q7_answer"></string>
+    <string name="quotes_q7_info"></string>
+
+    <string name="quotes_q8"></string>
+    <string name="quotes_q8_answer"></string>
+    <string name="quotes_q8_info"></string>
+
+    <string name="quotes_q9"></string>
+    <string name="quotes_q9_answer"></string>
+    <string name="quotes_q9_info"></string>
+
+    <string name="quotes_q10"></string>
+    <string name="quotes_q10_answer"></string>
+    <string name="quotes_q10_info"></string>
 
     <!-- HISTORICAL FIGURES QUESTIONS -->
     <string name="historical_q1"></string>
@@ -127,6 +194,26 @@
     <string name="historical_q5_answer"></string>
     <string name="historical_q5_info"></string>
 
+    <string name="historical_q6"></string>
+    <string name="historical_q6_answer"></string>
+    <string name="historical_q6_info"></string>
+
+    <string name="historical_q7"></string>
+    <string name="historical_q7_answer"></string>
+    <string name="historical_q7_info"></string>
+
+    <string name="historical_q8"></string>
+    <string name="historical_q8_answer"></string>
+    <string name="historical_q8_info"></string>
+
+    <string name="historical_q9"></string>
+    <string name="historical_q9_answer"></string>
+    <string name="historical_q9_info"></string>
+
+    <string name="historical_q10"></string>
+    <string name="historical_q10_answer"></string>
+    <string name="historical_q10_info"></string>
+
     <!-- INVENTIONS QUESTIONS -->
     <string name="inventions_q1"></string>
     <string name="inventions_q1_answer"></string>
@@ -147,6 +234,26 @@
     <string name="inventions_q5"></string>
     <string name="inventions_q5_answer"></string>
     <string name="inventions_q5_info"></string>
+
+    <string name="inventions_q6"></string>
+    <string name="inventions_q6_answer"></string>
+    <string name="inventions_q6_info"></string>
+
+    <string name="inventions_q7"></string>
+    <string name="inventions_q7_answer"></string>
+    <string name="inventions_q7_info"></string>
+
+    <string name="inventions_q8"></string>
+    <string name="inventions_q8_answer"></string>
+    <string name="inventions_q8_info"></string>
+
+    <string name="inventions_q9"></string>
+    <string name="inventions_q9_answer"></string>
+    <string name="inventions_q9_info"></string>
+
+    <string name="inventions_q10"></string>
+    <string name="inventions_q10_answer"></string>
+    <string name="inventions_q10_info"></string>
 
     <!-- MATH QUESTIONS -->
     <string name="math_q1"></string>
@@ -169,6 +276,26 @@
     <string name="math_q5_answer"></string>
     <string name="math_q5_info"></string>
 
+    <string name="math_q6"></string>
+    <string name="math_q6_answer"></string>
+    <string name="math_q6_info"></string>
+
+    <string name="math_q7"></string>
+    <string name="math_q7_answer"></string>
+    <string name="math_q7_info"></string>
+
+    <string name="math_q8"></string>
+    <string name="math_q8_answer"></string>
+    <string name="math_q8_info"></string>
+
+    <string name="math_q9"></string>
+    <string name="math_q9_answer"></string>
+    <string name="math_q9_info"></string>
+
+    <string name="math_q10"></string>
+    <string name="math_q10_answer"></string>
+    <string name="math_q10_info"></string>
+
     <!-- COMPUTER QUESTIONS -->
     <string name="computers_q1"></string>
     <string name="computers_q1_answer"></string>
@@ -189,6 +316,26 @@
     <string name="computers_q5"></string>
     <string name="computers_q5_answer"></string>
     <string name="computers_q5_info"></string>
+
+    <string name="computers_q6"></string>
+    <string name="computers_q6_answer"></string>
+    <string name="computers_q6_info"></string>
+
+    <string name="computers_q7"></string>
+    <string name="computers_q7_answer"></string>
+    <string name="computers_q7_info"></string>
+
+    <string name="computers_q8"></string>
+    <string name="computers_q8_answer"></string>
+    <string name="computers_q8_info"></string>
+
+    <string name="computers_q9"></string>
+    <string name="computers_q9_answer"></string>
+    <string name="computers_q9_info"></string>
+
+    <string name="computers_q10"></string>
+    <string name="computers_q10_answer"></string>
+    <string name="computers_q10_info"></string>
 
     <!-- GEOGRAPHY QUESTIONS -->
     <string name="geography_q1"></string>
@@ -211,6 +358,26 @@
     <string name="geography_q5_answer"></string>
     <string name="geography_q5_info"></string>
 
+    <string name="geography_q6"></string>
+    <string name="geography_q6_answer"></string>
+    <string name="geography_q6_info"></string>
+
+    <string name="geography_q7"></string>
+    <string name="geography_q7_answer"></string>
+    <string name="geography_q7_info"></string>
+
+    <string name="geography_q8"></string>
+    <string name="geography_q8_answer"></string>
+    <string name="geography_q8_info"></string>
+
+    <string name="geography_q9"></string>
+    <string name="geography_q9_answer"></string>
+    <string name="geography_q9_info"></string>
+
+    <string name="geography_q10"></string>
+    <string name="geography_q10_answer"></string>
+    <string name="geography_q10_info"></string>
+
     <!-- MUSIC QUESTIONS -->
     <string name="music_q1"></string>
     <string name="music_q1_answer"></string>
@@ -231,6 +398,26 @@
     <string name="music_q5"></string>
     <string name="music_q5_answer"></string>
     <string name="music_q5_info"></string>
+
+    <string name="music_q6"></string>
+    <string name="music_q6_answer"></string>
+    <string name="music_q6_info"></string>
+
+    <string name="music_q7"></string>
+    <string name="music_q7_answer"></string>
+    <string name="music_q7_info"></string>
+
+    <string name="music_q8"></string>
+    <string name="music_q8_answer"></string>
+    <string name="music_q8_info"></string>
+
+    <string name="music_q9"></string>
+    <string name="music_q9_answer"></string>
+    <string name="music_q9_info"></string>
+
+    <string name="music_q10"></string>
+    <string name="music_q10_answer"></string>
+    <string name="music_q10_info"></string>
 
     <!-- SPORTS QUESTIONS -->
     <string name="sports_q1"></string>
@@ -253,6 +440,26 @@
     <string name="sports_q5_answer"></string>
     <string name="sports_q5_info"></string>
 
+    <string name="sports_q6"></string>
+    <string name="sports_q6_answer"></string>
+    <string name="sports_q6_info"></string>
+
+    <string name="sports_q7"></string>
+    <string name="sports_q7_answer"></string>
+    <string name="sports_q7_info"></string>
+
+    <string name="sports_q8"></string>
+    <string name="sports_q8_answer"></string>
+    <string name="sports_q8_info"></string>
+
+    <string name="sports_q9"></string>
+    <string name="sports_q9_answer"></string>
+    <string name="sports_q9_info"></string>
+
+    <string name="sports_q10"></string>
+    <string name="sports_q10_answer"></string>
+    <string name="sports_q10_info"></string>
+
     <!-- BOOKS QUESTIONS -->
     <string name="books_q1"></string>
     <string name="books_q1_answer"></string>
@@ -274,6 +481,67 @@
     <string name="books_q5_answer"></string>
     <string name="books_q5_info"></string>
 
+    <string name="books_q6"></string>
+    <string name="books_q6_answer"></string>
+    <string name="books_q6_info"></string>
+
+    <string name="books_q7"></string>
+    <string name="books_q7_answer"></string>
+    <string name="books_q7_info"></string>
+
+    <string name="books_q8"></string>
+    <string name="books_q8_answer"></string>
+    <string name="books_q8_info"></string>
+
+    <string name="books_q9"></string>
+    <string name="books_q9_answer"></string>
+    <string name="books_q9_info"></string>
+
+    <string name="books_q10"></string>
+    <string name="books_q10_answer"></string>
+    <string name="books_q10_info"></string>
+
+    <!-- WILDLIFE QUESTIONS -->
+    <string name="wildlife_q1"></string>
+    <string name="wildlife_q1_answer"></string>
+    <string name="wildlife_q1_info"></string>
+
+    <string name="wildlife_q2"></string>
+    <string name="wildlife_q2_answer"></string>
+    <string name="wildlife_q2_info"></string>
+
+    <string name="wildlife_q3"></string>
+    <string name="wildlife_q3_answer"></string>
+    <string name="wildlife_q3_info"></string>
+
+    <string name="wildlife_q4"></string>
+    <string name="wildlife_q4_answer"></string>
+    <string name="wildlife_q4_info"></string>
+
+    <string name="wildlife_q5"></string>
+    <string name="wildlife_q5_answer"></string>
+    <string name="wildlife_q5_info"></string>
+
+    <string name="wildlife_q6"></string>
+    <string name="wildlife_q6_answer"></string>
+    <string name="wildlife_q6_info"></string>
+
+    <string name="wildlife_q7"></string>
+    <string name="wildlife_q7_answer"></string>
+    <string name="wildlife_q7_info"></string>
+
+    <string name="wildlife_q8"></string>
+    <string name="wildlife_q8_answer"></string>
+    <string name="wildlife_q8_info"></string>
+
+    <string name="wildlife_q9"></string>
+    <string name="wildlife_q9_answer"></string>
+    <string name="wildlife_q9_info"></string>
+
+    <string name="wildlife_q10"></string>
+    <string name="wildlife_q10_answer"></string>
+    <string name="wildlife_q10_info"></string>
+
     <!-- GUYS FAVES QUESTIONS -->
     <string name="guy_q1"></string>
     <string name="guy_q1_answer"></string>
@@ -294,5 +562,25 @@
     <string name="guy_q5"></string>
     <string name="guy_q5_answer"></string>
     <string name="guy_q5_info"></string>
+
+    <string name="guy_q6"></string>
+    <string name="guy_q6_answer"></string>
+    <string name="guy_q6_info"></string>
+
+    <string name="guy_q7"></string>
+    <string name="guy_q7_answer"></string>
+    <string name="guy_q7_info"></string>
+
+    <string name="guy_q8"></string>
+    <string name="guy_q8_answer"></string>
+    <string name="guy_q8_info"></string>
+
+    <string name="guy_q9"></string>
+    <string name="guy_q9_answer"></string>
+    <string name="guy_q9_info"></string>
+
+    <string name="guy_q10"></string>
+    <string name="guy_q10_answer"></string>
+    <string name="guy_q10_info"></string>
 
 </resources>

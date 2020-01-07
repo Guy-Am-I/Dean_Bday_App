@@ -94,8 +94,8 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
 
     public int getTopicImage(String path){
         switch (path) {
-            case "fantasy":
-                return R.drawable.fantasy;
+            case "pop_culture":
+                return R.drawable.pop_culture;
             case "books":
                 return  R.drawable.books;
             case "math":
@@ -110,12 +110,14 @@ public class TopicsListAdapter extends RecyclerView.Adapter<TopicsListAdapter.To
                 return R.drawable.geography;
             case "invention":
                 return R.drawable.invention;
-            case "superhero":
-                return R.drawable.superhero;
+            case "quotes":
+                return R.drawable.quotes;
             case "games":
                 return R.drawable.games;
             case "music":
                 return R.drawable.music;
+            case "wildlife":
+                return R.drawable.wildlife;
             case "guys_fav":
                 return R.drawable.guys_fav;
             default:
