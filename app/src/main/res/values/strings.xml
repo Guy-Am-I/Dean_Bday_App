@@ -50,537 +50,688 @@
 
     <!-- TODO add all quiz questions (at least 100 :) -->
     <!-- Pop Culture QUESTIONS -->
-    <string name="pop_culture_q1"></string>
-    <string name="pop_culture_q1_answer"></string>
-    <string name="pop_culture_q1_info"></string>
+    <string name="pop_culture_q1">The first film of what history-defining movie franchise was released in 1977?</string>
+    <string name="pop_culture_q1_answer">Star Wars</string>
+    <string name="pop_culture_q1_info">George Lucas accepted a lower salary in exchange for full merchandising rights. \n Most thought he was a fool - boy, were they wrong!</string>
 
-    <string name="pop_culture_q2"></string>
-    <string name="pop_culture_q2_answer"></string>
-    <string name="pop_culture_q2_info"></string>
+    <string name="pop_culture_q2">What fictional character popularized the term "Friend-Zone"?</string>
+    <string name="pop_culture_q2_answer">Joey Tribbiani</string>
+    <string name="pop_culture_q2_info">Matt le Blanc only had 11 dollars to his name when he got the role of Joey!</string>
 
-    <string name="pop_culture_q3"></string>
-    <string name="pop_culture_q3_answer"></string>
-    <string name="pop_culture_q3_info"></string>
+    <string name="pop_culture_q3">This story of this man made behemoth which never survived its maiden voyage was made into one of the best movies of all time</string>
+    <string name="pop_culture_q3_answer">Titanic</string>
+    <string name="pop_culture_q3_info">While there were many faults in the founding(when a ship sinks) of the R.M.S. Titanic (which took a few hours from the collision),
+        even after the fact most of the life boats were carrying less than half of the amount of passengers able to fit in the boat,
+        and they refused to turn around and help those floating in the ocean (eventually even most of these people died of hypothermia)</string>
 
-    <string name="pop_culture_q4"></string>
-    <string name="pop_culture_q4_answer"></string>
-    <string name="pop_culture_q4_info"></string>
+    <string name="pop_culture_q4">This popular LOTR character dies in a different time and place in the movies compared to the books. \n (Hint: Sharkey)</string>
+    <string name="pop_culture_q4_answer">Saruman</string>
+    <string name="pop_culture_q4_info">In the books he dies much later in the reckoning of the shire.
+        Aside from this there are many more fantastic additions in the books that didn\'t make it to the movies
+        like many more songs, poems and the great Tom Bambadil (but I\'ll let you figure it out for yourself)</string>
 
-    <string name="pop_culture_q5"></string>
-    <string name="pop_culture_q5_answer"></string>
-    <string name="pop_culture_q5_info"></string>
+    <string name="pop_culture_q5">This famous school divides its students into 4 unique houses by the command of a hat</string>
+    <string name="pop_culture_q5_answer">Hogwarts</string>
+    <string name="pop_culture_q5_info">All the movies combined total just shy of 20 hours (1,178 minutes) which makes it
+        perfect for a full day 24-Hour marathon :)</string>
 
-    <string name="pop_culture_q6"></string>
-    <string name="pop_culture_q6_answer"></string>
-    <string name="pop_culture_q6_info"></string>
+    <string name="pop_culture_q6">In {name of a great, mind-bending movie} what is the name of the objects used to determine if one is dreaming?</string>
+    <string name="pop_culture_q6_answer">Totem</string>
+    <string name="pop_culture_q6_info">Inception is my favorite movie of all time and I have watched it 6 times to this day!</string>
 
-    <string name="pop_culture_q7"></string>
-    <string name="pop_culture_q7_answer"></string>
-    <string name="pop_culture_q7_info"></string>
+    <string name="pop_culture_q7">What animal is revealed to be running the world and causes the main characters of the TV show to flee to a new dimension?</string>
+    <string name="pop_culture_q7_answer">Squirrel</string>
+    <string name="pop_culture_q7_info">Justin Roiland actually gets drunk {Buuurp} in real life sometimes {Buurp} in order to voice Rick! {Buuurp}</string>
 
-    <string name="pop_culture_q8"></string>
-    <string name="pop_culture_q8_answer"></string>
-    <string name="pop_culture_q8_info"></string>
+    <string name="pop_culture_q8">This cute, lovable, fictional character was created in 1974 and celebrates her birthday on November 1st</string>
+    <string name="pop_culture_q8_answer">Hello Kitty</string>
+    <string name="pop_culture_q8_info">The Hello Kitty franchise has generated an estimated 86 Billion dollars!!!
+        but it is still only in 2nd place; can you guess what is first?</string>
 
-    <string name="pop_culture_q9"></string>
-    <string name="pop_culture_q9_answer"></string>
-    <string name="pop_culture_q9_info"></string>
+    <string name="pop_culture_q9">The highest grossing movie in the most successful movie franchise of all time</string>
+    <string name="pop_culture_q9_answer">Avengers: Endgame</string>
+    <string name="pop_culture_q9_info">The MCU has grossed over 18 BILLION dollars to date with Endgame accounting for about 2.8 billion.</string>
 
-    <string name="pop_culture_q10"></string>
-    <string name="pop_culture_q10_answer"></string>
-    <string name="pop_culture_q10_info"></string>
+    <string name="pop_culture_q10">What is the name of the character for which the actor won the only Best Supporting Actor oscar given posthumously(after his death)?</string>
+    <string name="pop_culture_q10_answer">Joker</string>
+    <string name="pop_culture_q10_info">Heath Ledger got into the role of Joker by locking himself in a secluded hotel room
+        for 6 weeks while filling an eerie journal throughout his stay</string>
 
 
     <!-- GAMES QUESTIONS -->
-    <string name="games_q1"></string>
-    <string name="games_q1_answer"></string>
-    <string name="games_q1_info"></string>
+    <string name="games_q1">What is the very first pokemon to be designed?</string>
+    <string name="games_q1_answer">Rhydon</string>
+    <string name="games_q1_info">How many guesses did you make before looking it up? If less than 5 than I am dissappointed!</string>
 
-    <string name="games_q2"></string>
-    <string name="games_q2_answer"></string>
-    <string name="games_q2_info"></string>
+    <string name="games_q2">What contest took place in the following cities: Cologne, Seattle, Vancouver, Shanghai?</string>
+    <string name="games_q2_answer">The International</string>
+    <string name="games_q2_info">TI9 had a prize pool of over 34 million dollars making it the highest esports prize (so far) by a landslide.</string>
 
-    <string name="games_q3"></string>
-    <string name="games_q3_answer"></string>
-    <string name="games_q3_info"></string>
+    <string name="games_q3">What famous video game, created by Atari, was released in 1972?</string>
+    <string name="games_q3_answer">Pong</string>
+    <string name="games_q3_info">Contrary to what many might think, Pong is not the first video game made.
+        That title belongs to Spacewars</string>
 
-    <string name="games_q4"></string>
-    <string name="games_q4_answer"></string>
-    <string name="games_q4_info"></string>
+    <string name="games_q4">Sometimes I am used to play games, other times to build houses;
+        often I am thrown with great accuracy and force at things, but the best is when I become the star of the show.
+        What am I?</string>
+    <string name="games_q4_answer">Playing Card</string>
+    <string name="games_q4_info">Playing Cards were invented during the Tang Dynasty in China almost 1200! years ago.</string>
 
-    <string name="games_q5"></string>
-    <string name="games_q5_answer"></string>
-    <string name="games_q5_info"></string>
+    <string name="games_q5">Who is the twin brother of the plumber who is tasked with rescuing a princess from a castle?</string>
+    <string name="games_q5_answer">Luigi</string>
+    <string name="games_q5_info">Mario was named after a landlord who interrupted a nintendo company meeting demanding overdue rent.</string>
 
-    <string name="games_q6"></string>
-    <string name="games_q6_answer"></string>
-    <string name="games_q6_info"></string>
+    <string name="games_q6">What is the full name of the sidekick of most famous hedgehog in the world?</string>
+    <string name="games_q6_answer">Miles Prower</string>
+    <string name="games_q6_info">Miles Prower (or more commonly known as tails) is a pun on Miles Per Hour :) get it? - because Sonic is so fast</string>
 
-    <string name="games_q7"></string>
-    <string name="games_q7_answer"></string>
-    <string name="games_q7_info"></string>
+    <string name="games_q7">This arcade game has both a male version and a female counterpart.</string>
+    <string name="games_q7_answer">Pac-Man</string>
+    <string name="games_q7_info">Originally the game was called Puck-Man! Can you imagine playing Puck-man.</string>
 
-    <string name="games_q8"></string>
-    <string name="games_q8_answer"></string>
-    <string name="games_q8_info"></string>
+    <string name="games_q8">In this popular game released in 2007 the player has to teleport its character and objects in order to solve puzzles</string>
+    <string name="games_q8_answer">Portal</string>
+    <string name="games_q8_info">GLaDOS stands for Genetic Lifeform and Disk Operating System</string>
 
-    <string name="games_q9"></string>
-    <string name="games_q9_answer"></string>
-    <string name="games_q9_info"></string>
+    <string name="games_q9">In which game do players have to try to score points by rolling 5 dice to create certain combanations?</string>
+    <string name="games_q9_answer">Yahtzee</string>
+    <string name="games_q9_info">Did you guess Generala?, in fact there are several games similar to Yahtzee including
+        "poker dice" and "Jacy-Tacy"</string>
 
-    <string name="games_q10"></string>
-    <string name="games_q10_answer"></string>
-    <string name="games_q10_info"></string>
+    <string name="games_q10">What game starts up after typing the following command: "emacs -batch -l dunnet" (*in an emacs editor)</string>
+    <string name="games_q10_answer">Dunnet</string>
+    <string name="games_q10_info">While this terrific adventure game can only be played on Mac and Linux,
+        games such as sudoku, pac-man, 2048 and more! can be played on the windows command prompt</string>
 
-    <!-- SUPERHEROES QUESTIONS -->
-    <string name="quotes_q1"></string>
-    <string name="quotes_q1_answer"></string>
-    <string name="quotes_q1_info"></string>
+    <!-- QUOTES QUESTIONS -->
+    <string name="quotes_q1">"{blank}, Sweat and Respect. The first two you give, the last one you earn."</string>
+    <string name="quotes_q1_answer">Blood</string>
+    <string name="quotes_q1_info">Dwayne Johnson initially wanted to become a football player but after suffering injury he had to find a new path.
+            He cites this in many of his speeches stating that he started with only 7 dollars after being kicked from the CFL(Canadian Football League).</string>
 
-    <string name="quotes_q2"></string>
-    <string name="quotes_q2_answer"></string>
-    <string name="quotes_q2_info"></string>
+    <string name="quotes_q2">"Hatred is never ended by hatred but by {blank}."</string>
+    <string name="quotes_q2_answer">Love</string>
+    <string name="quotes_q2_info">Buddha. "The Buddha" was a wealthy prince that decided leave his comfortable life to endure suffering.
+            when he wasn\'t fulfilled by suffering he decided to sit under a tree for months until he discovered a meaning for life.
+            The rest is history.</string>
 
-    <string name="quotes_q3"></string>
-    <string name="quotes_q3_answer"></string>
-    <string name="quotes_q3_info"></string>
+    <string name="quotes_q3">"A drop of {blank} catches more flies than a gallon of gall</string>
+    <string name="quotes_q3_answer">Honey</string>
+    <string name="quotes_q3_info">Abraham Lincoln. Aside from all his historical achievements, he was known to be an adroit leader;
+        never scolding others but instead using positive reinforcement. On some occasions it was reported he wrote furious,
+        demeaning letters but never sent them.</string>
 
-    <string name="quotes_q4"></string>
-    <string name="quotes_q4_answer"></string>
-    <string name="quotes_q4_info"></string>
+    <string name="quotes_q4">If you want something you\'ve never {blank}, you must be willing to do something you\'ve never {blank}."</string>
+    <string name="quotes_q4_answer">Had, Done</string>
+    <string name="quotes_q4_info">Thomas Jefferson. Self-Explanatory</string>
 
-    <string name="quotes_q5"></string>
-    <string name="quotes_q5_answer"></string>
-    <string name="quotes_q5_info"></string>
+    <string name="quotes_q5">"Sometimes life hits you in the head with a {blank}. Don\'t lose faith."</string>
+    <string name="quotes_q5_answer">Brick</string>
+    <string name="quotes_q5_info">Steve Jobs, given during his famous commencement speech at Stanford. !MUST hear!</string>
 
-    <string name="quotes_q6"></string>
-    <string name="quotes_q6_answer"></string>
-    <string name="quotes_q6_info"></string>
+    <string name="quotes_q6">"The secret of getting ahead is {blank} {blank}."</string>
+    <string name="quotes_q6_answer">Getting, Started</string>
+    <string name="quotes_q6_info">Mark Twain. Author, best known for The adventures of Tom Sawyer and Adventures of Huckleberry Finn</string>
 
-    <string name="quotes_q7"></string>
-    <string name="quotes_q7_answer"></string>
-    <string name="quotes_q7_info"></string>
+    <string name="quotes_q7">"Nothing in life is as {blank} as you think it is when you are thinking about it."</string>
+    <string name="quotes_q7_answer">Important</string>
+    <string name="quotes_q7_info">Daniel Kahneman - born in Israel! From the book "Thinking fast and slow". Read it at least twice</string>
 
-    <string name="quotes_q8"></string>
-    <string name="quotes_q8_answer"></string>
-    <string name="quotes_q8_info"></string>
+    <string name="quotes_q8">"We know what we {blank}, but know not what we may {blank}."</string>
+    <string name="quotes_q8_answer">Are, Be</string>
+    <string name="quotes_q8_info">William Shakespeare. My favorite shakespeare quote along with
+        "A fool thinks himself to be wise, but a wise man knows himself to be a fool."</string>
 
-    <string name="quotes_q9"></string>
-    <string name="quotes_q9_answer"></string>
-    <string name="quotes_q9_info"></string>
+    <string name="quotes_q9">"No one is {blank} in this world who lightens the burden of it to anyone else."</string>
+    <string name="quotes_q9_answer">Useless</string>
+    <string name="quotes_q9_info">Charles Dickens. He never attended school for more than 4 years and he worked
+        in rat-infested warehouse as a teen. He submitted countless stories for months,
+        all of which failed until one was finally accepted. The rest.. well you know</string>
 
-    <string name="quotes_q10"></string>
-    <string name="quotes_q10_answer"></string>
-    <string name="quotes_q10_info"></string>
+    <string name="quotes_q10">"If you don't find the {blank}, if you don't do the {blank}, you don't get the results."</string>
+    <string name="quotes_q10_answer">Time, Work</string>
+    <string name="quotes_q10_info">Arnold Schwarzenegger. I urge you to look up some of his motivational speeches or read the book if you fancy.</string>
 
     <!-- HISTORICAL FIGURES QUESTIONS -->
-    <string name="historical_q1"></string>
-    <string name="historical_q1_answer"></string>
-    <string name="historical_q1_info"></string>
+    <string name="historical_q1">Most notably known for his famous speech given on August 1963, name this civil rights activist born 1929, assassinated on 1968.</string>
+    <string name="historical_q1_answer">Martin Luther King</string>
+    <string name="historical_q1_info">Just go see/hear/read the speech if you haven\'t done so in school; Please.</string>
 
-    <string name="historical_q2"></string>
-    <string name="historical_q2_answer"></string>
-    <string name="historical_q2_info"></string>
+    <string name="historical_q2">Who is this founding father which, aside from his historical work on electrivity, was also writer, philosopher, inventor,
+        politician and even more?!</string>
+    <string name="historical_q2_answer">Benjamin Franklin</string>
+    <string name="historical_q2_info">Franklin is credited with the invention of the lightning rod, after his famous experiment of flying a kite
+        through a storm to prove that lightning is electricity (by conducting elextricity from the clouds to the kite and back down to the ground)!</string>
 
-    <string name="historical_q3"></string>
-    <string name="historical_q3_answer"></string>
-    <string name="historical_q3_info"></string>
+    <string name="historical_q3">What triumphant military leader during the early 19th century is credited with bringing liberal reforms throughout Europe?</string>
+    <string name="historical_q3_answer">Napoleon Bonaparte</string>
+    <string name="historical_q3_info">While the famous phrase "Liberté, égalité, fraternité" was concieved during the French Revolution; it was first said in 1790, well before Napoleon rose to power</string>
 
-    <string name="historical_q4"></string>
-    <string name="historical_q4_answer"></string>
-    <string name="historical_q4_info"></string>
+    <string name="historical_q4">This prominent german scientist who is credited with countless contributions (and a nobel prize to go along with it), was declines an offer
+        to become Israel\'s 2nd President</string>
+    <string name="historical_q4_answer">Albert Einstein</string>
+    <string name="historical_q4_info">He never actually failed math (was at the top of his class), rather left school at 15 after mastering calculus!
+        While he was against the use of the Atomic Bombs, he is probably the main reasons the Americans knew of its possibility</string>
 
-    <string name="historical_q5"></string>
-    <string name="historical_q5_answer"></string>
-    <string name="historical_q5_info"></string>
+    <string name="historical_q5">Who was the first computer programmer?</string>
+    <string name="historical_q5_answer">Ada Lovelace</string>
+    <string name="historical_q5_info">All the way back in the 1830\'s! She used punch cards in order to put input and receive output from a machine.
+        (Do you even know what a punch card is? :)</string>
 
-    <string name="historical_q6"></string>
-    <string name="historical_q6_answer"></string>
-    <string name="historical_q6_info"></string>
+    <string name="historical_q6">Who is considered as the Father of Philosophy?</string>
+    <string name="historical_q6_answer">Socrates</string>
+    <string name="historical_q6_info">Born 2500 years ago, named after him is the Socrates Method (which you use constantly: look it up!). My favorite quote of his:
+        "There is only one thing I know, and that is that I know nothing."</string>
 
-    <string name="historical_q7"></string>
-    <string name="historical_q7_answer"></string>
-    <string name="historical_q7_info"></string>
+    <string name="historical_q7">Who is credited with the most eminent set of 3 laws in history></string>
+    <string name="historical_q7_answer">Isaac Newton</string>
+    <string name="historical_q7_info">While the apple didn\'t exactly fall on his head, the apple tree did exist,
+        and it still grows apples to this day at his old house in England.</string>
 
-    <string name="historical_q8"></string>
-    <string name="historical_q8_answer"></string>
-    <string name="historical_q8_info"></string>
+    <string name="historical_q8">Who was the person after which the worldwide used Gregorian calendar counts its years?</string>
+    <string name="historical_q8_answer">Jesus</string>
+    <string name="historical_q8_info">BC (before christ), AD (anno domini). There is no 0 rahter 1 BC -> 1 AD. The counting starts after his birth, i.e. AD does not mean After Death of Jesus (who only lived about 30 years)</string>
 
-    <string name="historical_q9"></string>
-    <string name="historical_q9_answer"></string>
-    <string name="historical_q9_info"></string>
+    <string name="historical_q9">The youngest person to win a Nobel Peace Prize, born on July 12, 1997!</string>
+    <string name="historical_q9_answer">Malala Yousafzai</string>
+    <string name="historical_q9_info">Women\'s rights activist who was shot point blank in the head for speaking out (and survived).
+        Yes she is younger than me, but definitely a part of history already.(What have I done with my life ;)</string>
 
-    <string name="historical_q10"></string>
-    <string name="historical_q10_answer"></string>
-    <string name="historical_q10_info"></string>
+    <string name="historical_q10">This pilot disappeared somewhere over the pacific while trying to become the first person to circumnavigate the globe</string>
+    <string name="historical_q10_answer">Amelia Earhart</string>
+    <string name="historical_q10_info">First female to fly alone across the atlantic. To this day her plane wreckage has not been found and her disappearance is still a mystery.</string>
 
     <!-- INVENTIONS QUESTIONS -->
-    <string name="inventions_q1"></string>
-    <string name="inventions_q1_answer"></string>
-    <string name="inventions_q1_info"></string>
+    <string name="inventions_q1">Wilbur and Orville invented which contraption in 1903?</string>
+    <string name="inventions_q1_answer">Airplane</string>
+    <string name="inventions_q1_info">A man named Samuel Langley, renowned scientist and professor, was given government funding and a choice
+        of top engineers to invent the airplane; yet the Wright brothers, who never even attended college, beat him to it. (See TED talk by Simon Sinek)</string>
 
-    <string name="inventions_q2"></string>
-    <string name="inventions_q2_answer"></string>
-    <string name="inventions_q2_info"></string>
+    <string name="inventions_q2">Created by Bill Gates and Paul Allen, Altair BASIC was the first programming language for what invention?</string>
+    <string name="inventions_q2_answer">Personal Computer</string>
+    <string name="inventions_q2_info">As 2 college students they had no access to the computer itself (Altair 8080)
+        yet they managed to make the program work on their first try (in fact, Paul Allen finished the code on the plane before the test)!</string>
 
-    <string name="inventions_q3"></string>
-    <string name="inventions_q3_answer"></string>
-    <string name="inventions_q3_info"></string>
+    <string name="inventions_q3">Credited to Henry Ford (of Ford Motors) what technique revolutionized the Industrial Era and is still just as effective to this day?</string>
+    <string name="inventions_q3_answer">Assembly Line</string>
+    <string name="inventions_q3_info">*Contrary to common knowledge, he didn\'t actually invent this method!
+        "Thinking is the hardest work there is, which is probably the reason why so few engage in it."</string>
 
-    <string name="inventions_q4"></string>
-    <string name="inventions_q4_answer"></string>
-    <string name="inventions_q4_info"></string>
+    <string name="inventions_q4">While he did not invent it, Thomas Edison made what invention practical and paved the way for its future?</string>
+    <string name="inventions_q4_answer">Light Bulb</string>
+    <string name="inventions_q4_info">By the time of his death, Edison patented over 1000 inventions, most notably including the
+        microphone, phonograph(ask Chen ;]) and many more.</string>
 
-    <string name="inventions_q5"></string>
-    <string name="inventions_q5_answer"></string>
-    <string name="inventions_q5_info"></string>
+    <string name="inventions_q5">This device heats and cooks food by exposing it to electromagnetic radiation</string>
+    <string name="inventions_q5_answer">Microwave</string>
+    <string name="inventions_q5_info">Invented during WW2, the microwave oven came to be by accident when its inventor realized a chocolate bar in his pocket
+        began to melt after being exposed to microwave radiation (hence the name)</string>
 
-    <string name="inventions_q6"></string>
-    <string name="inventions_q6_answer"></string>
-    <string name="inventions_q6_info"></string>
+    <string name="inventions_q6">While more of a discovery than an invention, what is comprised of heat, fuel and oxygen?</string>
+    <string name="inventions_q6_answer">Fire</string>
+    <string name="inventions_q6_info">While the earliest known control of fire was over 400,000 years ago;
+        it is believed that fire was first discovered as far back as 1.7 million years ago</string>
 
-    <string name="inventions_q7"></string>
-    <string name="inventions_q7_answer"></string>
-    <string name="inventions_q7_info"></string>
+    <string name="inventions_q7">While today\'s Information Age can be credited to the invention of the transistor,
+        what creation is responsible for making this information available to Billions of people worldwide?</string>
+    <string name="inventions_q7_answer">Internet</string>
+    <string name="inventions_q7_info">Over 50% of the global population uses the internet as of this day, encompassing about 4.5 billion people</string>
 
-    <string name="inventions_q8"></string>
-    <string name="inventions_q8_answer"></string>
-    <string name="inventions_q8_info"></string>
+    <string name="inventions_q8">Credited with developments such as Ethernet, Laser Printing, OOP and much more; Xerox Parc reimagined what
+        device used to navigate the first ever Graphical User Interface?</string>
+    <string name="inventions_q8_answer">Mouse</string>
+    <string name="inventions_q8_info">First made popular with the release of the Macintosh in 1984, the mouse got its name from its appearence,
+        resembling the animal with the cord acting as the tail</string>
 
-    <string name="inventions_q9"></string>
-    <string name="inventions_q9_answer"></string>
-    <string name="inventions_q9_info"></string>
+    <string name="inventions_q9">The invention of what powerful tool can be referred to as Röntgen radiation?</string>
+    <string name="inventions_q9_answer">X-Ray</string>
+    <string name="inventions_q9_info">Initially discovered by accident while experimenting with electrical currents, it was dubbed X-radiation
+        for its unEXplained nature.</string>
 
-    <string name="inventions_q10"></string>
-    <string name="inventions_q10_answer"></string>
-    <string name="inventions_q10_info"></string>
+    <string name="inventions_q10">What invention is used in the phrase: "Even a broken {blank} is right twice a day"?</string>
+    <string name="inventions_q10_answer">Clock</string>
+    <string name="inventions_q10_info">While measuring time can be dated as far back as 2000 B.C. the modern quartz watches (
+        note diff between clock and watch) used today were only invented in the late 1960\'s</string>
 
     <!-- MATH QUESTIONS -->
-    <string name="math_q1"></string>
-    <string name="math_q1_answer"></string>
-    <string name="math_q1_info"></string>
+    <string name="math_q1">e ^ (PI * i) + 1 = ?</string>
+    <string name="math_q1_answer">0</string>
+    <string name="math_q1_info">Regarded as one of the most beautiful equations, Euler\'s formula combines some of the most
+        common mathematical values in a simple equation. (See 3Blue1Brown on youtube for easy to understand explanation of this)</string>
 
-    <string name="math_q2"></string>
-    <string name="math_q2_answer"></string>
-    <string name="math_q2_info"></string>
+    <string name="math_q2">A bat and ball cost 1.10$. The bat costs one dollar more than the ball. How much does the ball cost?</string>
+    <string name="math_q2_answer">0.05</string>
+    <string name="math_q2_info">Did you guess incorrectly on your first try? In fact most people often guess 0.10 and this is because
+        of how the mind works, it tries to conceive an answer based on the words automatically before engaging the thinking part of your brain
+        that actually produces the answer.</string>
 
-    <string name="math_q3"></string>
-    <string name="math_q3_answer"></string>
-    <string name="math_q3_info"></string>
+    <string name="math_q3">6÷2(1+2) = ?</string>
+    <string name="math_q3_answer">9</string>
+    <string name="math_q3_info">Did you forget PEMDAS? Always think before answering, one day it will actually have a big impact.</string>
 
-    <string name="math_q4"></string>
-    <string name="math_q4_answer"></string>
-    <string name="math_q4_info"></string>
+    <string name="math_q4">If 3! = 3*2*1 = 6, 2! = 2*1 = 2, 1! = 1 => 0! = ?</string>
+    <string name="math_q4_answer">1</string>
+    <string name="math_q4_info">This comes down to simple defenitions - A factorial is the number of combinations possible with numbers
+        less than or equal to that number, and with 0 there is still one possible combination - no combination at all! </string>
 
-    <string name="math_q5"></string>
-    <string name="math_q5_answer"></string>
-    <string name="math_q5_info"></string>
+    <string name="math_q5">What is the 10th element of the The Fibonacci Sequence?</string>
+    <string name="math_q5_answer">34</string>
+    <string name="math_q5_info">Often referred to as the magical sequence since it appears unexpectedly, Fibonacci discovered it when
+        trying to determine the growth of the rabbit population.</string>
 
-    <string name="math_q6"></string>
-    <string name="math_q6_answer"></string>
-    <string name="math_q6_info"></string>
+    <string name="math_q6">What greek letter is often used in math to denote a very small number that is not negative,
+        approaching zero but staying positive?</string>
+    <string name="math_q6_answer">Epsilon</string>
+    <string name="math_q6_info">(ε), While the letter itself has more meanings in different conotations, this one is the most popular
+        and is mostly used in Calculus</string>
 
-    <string name="math_q7"></string>
-    <string name="math_q7_answer"></string>
-    <string name="math_q7_info"></string>
+    <string name="math_q7">What is the name of the tool used to calculate the area under a curve/graph? (NOT a proper mathematical definition)</string>
+    <string name="math_q7_answer">Integral</string>
+    <string name="math_q7_info">While you will become best friends with these creatures(Integrals) soon enough, for now just know that integrals
+        are the tools used to calculate properties of many 3D shapes</string>
 
-    <string name="math_q8"></string>
-    <string name="math_q8_answer"></string>
-    <string name="math_q8_info"></string>
+    <string name="math_q8">How many prime numbers exist?</string>
+    <string name="math_q8_answer">Infinite</string>
+    <string name="math_q8_info">Surprised? It has been proven in different ways that there are an infinite number of prime numbers!</string>
 
-    <string name="math_q9"></string>
-    <string name="math_q9_answer"></string>
-    <string name="math_q9_info"></string>
+    <string name="math_q9">What is the name of the coordinate system we most commonly use to display graphs?</string>
+    <string name="math_q9_answer">Cartesian</string>
+    <string name="math_q9_info">Another one you might have seen in Physics is the Polar system - using (r, θ).</string>
 
-    <string name="math_q10"></string>
-    <string name="math_q10_answer"></string>
-    <string name="math_q10_info"></string>
+    <string name="math_q10">for n=1,2,3,...,99 what is the sum of: [1/n - 1/(n+1)] (add one to {n} after each calculation until you reach 99)</string>
+    <string name="math_q10_answer">0.99</string>
+    <string name="math_q10_info">How many elements did you calculate before realizing the pattern? This is called a telescopic sum.</string>
 
     <!-- COMPUTER QUESTIONS -->
-    <string name="computers_q1"></string>
-    <string name="computers_q1_answer"></string>
-    <string name="computers_q1_info"></string>
+    <string name="computers_q1">In Python, what is the value of X after this code is executed: X = ((((2 ** 5) % 2) + 1) // 2)</string>
+    <string name="computers_q1_answer">0</string>
+    <string name="computers_q1_info">In python (and many more programming languages) {%} = remainder, {//} = integer division (only whole numbers)</string>
 
-    <string name="computers_q2"></string>
-    <string name="computers_q2_answer"></string>
-    <string name="computers_q2_info"></string>
+    <string name="computers_q2">Using a very complicated computer machine, what code did Alan Turing crack during WW2?</string>
+    <string name="computers_q2_answer">Enigma</string>
+    <string name="computers_q2_info">The highest award one can get in the Computer Science field is called the "Turing Award" and is
+        referred to as the Nobel Prize for Computing</string>
 
-    <string name="computers_q3"></string>
-    <string name="computers_q3_answer"></string>
-    <string name="computers_q3_info"></string>
+    <string name="computers_q3">While everyone knows Steve Jobs as the force behind Apple Computer\'s success, what is the name of the
+        computer engineer who actually designed and built the first Apple computer?</string>
+    <string name="computers_q3_answer">Steve Wozniak</string>
+    <string name="computers_q3_info">Even though he stepped down (left by his own wil) the company in 1985, he is still listed as an
+        Apple employee to this day.</string>
 
-    <string name="computers_q4"></string>
-    <string name="computers_q4_answer"></string>
-    <string name="computers_q4_info"></string>
+    <string name="computers_q4">What is the used computer operating system in the world today? (By number of devices running it)</string>
+    <string name="computers_q4_answer">Android</string>
+    <string name="computers_q4_info">Did you guess Windows? There are actually more mobile devices in the world today
+            than Desktops, Laptops and Tablets combined!</string>
 
-    <string name="computers_q5"></string>
-    <string name="computers_q5_answer"></string>
-    <string name="computers_q5_info"></string>
+    <string name="computers_q5">What is the most valuable Technology company in the world as of December 2019?</string>
+    <string name="computers_q5_answer">Microsoft</string>
+    <string name="computers_q5_info">While falling just shy of most valuable company in the world (at number 2) it surpassed Apple and
+        even Amazon (which held the title briefly during the first part of 2019).
+        Believe it or not, most of their revenue actually comes from Cloud Services</string>
 
-    <string name="computers_q6"></string>
-    <string name="computers_q6_answer"></string>
-    <string name="computers_q6_info"></string>
+    <string name="computers_q6">In what programming language is the following code written in?  MOV AL, 61h </string>
+    <string name="computers_q6_answer">Assembly</string>
+    <string name="computers_q6_info">(Closest human readable code to what the computer actually interprets)
+            This is then changed to 1\'s and 0\'s by the Assembler which is what the computer understands</string>
 
-    <string name="computers_q7"></string>
-    <string name="computers_q7_answer"></string>
-    <string name="computers_q7_info"></string>
+    <string name="computers_q7">In computers an image is represented as a matrix where each element is a {blank}?</string>
+    <string name="computers_q7_answer">Pixels</string>
+    <string name="computers_q7_info">Everything to do with images like Image Recognition, Image filters, Image/Video Compression use
+        linear algebra(more on that after high school :) to perform mentioned functions.</string>
 
-    <string name="computers_q8"></string>
-    <string name="computers_q8_answer"></string>
-    <string name="computers_q8_info"></string>
+    <string name="computers_q8">If 8 bits (1 bit = 1 or 0) equal 1 byte, how many bits are in 1 Gigabyte</string>
+    <string name="computers_q8_answer">8,589,934,592</string>
+    <string name="computers_q8_info">What this means is that if order to have 1 Gigabyte of memory you need that amount of 1\'s and 0\'s
+        to represent all the data</string>
 
-    <string name="computers_q9"></string>
-    <string name="computers_q9_answer"></string>
-    <string name="computers_q9_info"></string>
+    <string name="computers_q9">The recently announced GitHub Archive Program will store (later this year) every public repository in which city?</string>
+    <string name="computers_q9_answer">Svalbard</string>
+    <string name="computers_q9_info">That\'s right, Every single public program will be kept in the Arctic World Archive vault in Norway for 1000 years!
+        Including this very APP :)</string>
 
-    <string name="computers_q10"></string>
-    <string name="computers_q10_answer"></string>
-    <string name="computers_q10_info"></string>
+    <string name="computers_q10">What is the main programming language used to develop android applications?</string>
+    <string name="computers_q10_answer">Java</string>
+    <string name="computers_q10_info">There are more programs with different languages that enable you to create applications, but as of right
+        now the most common is Java with Kotlin slowly catching up</string>
 
     <!-- GEOGRAPHY QUESTIONS -->
-    <string name="geography_q1"></string>
-    <string name="geography_q1_answer"></string>
-    <string name="geography_q1_info"></string>
+    <string name="geography_q1">Which country is often, incorrectly, left out of world maps/globes?</string>
+    <string name="geography_q1_answer">New Zealand</string>
+    <string name="geography_q1_info">Funnily enough this is more common than you might think occuring even in games like Risk, many posters
+        and even in the UN!</string>
 
-    <string name="geography_q2"></string>
-    <string name="geography_q2_answer"></string>
-    <string name="geography_q2_info"></string>
+    <string name="geography_q2">Nessie, the famous Loch Ness monster, resides in which country?</string>
+    <string name="geography_q2_answer">Scotland</string>
+    <string name="geography_q2_info">A recent scientific publishing, which collected DNA samples from Loch Ness, showed that Nessie is most likely an eel</string>
 
-    <string name="geography_q3"></string>
-    <string name="geography_q3_answer"></string>
-    <string name="geography_q3_info"></string>
+    <string name="geography_q3">In what city does the Greenwich Mean Time (GMT) begin at?</string>
+    <string name="geography_q3_answer">London</string>
+    <string name="geography_q3_info">While sometimes used as a synonym to UTC they are in fact no entirely the same and can differ by up to 0.9s.</string>
 
-    <string name="geography_q4"></string>
-    <string name="geography_q4_answer"></string>
-    <string name="geography_q4_info"></string>
+    <string name="geography_q4">What is the smallest country in the world, based on area?</string>
+    <string name="geography_q4_answer">Vatican City</string>
+    <string name="geography_q4_info">It did not become an independent conutry until 1929. The country itself is slightly bigger than Disneyland.</string>
 
-    <string name="geography_q5"></string>
-    <string name="geography_q5_answer"></string>
-    <string name="geography_q5_info"></string>
+    <string name="geography_q5">Once believed to be the edge of the world, in what city is Land\'s End located?</string>
+    <string name="geography_q5_answer">Cornwall</string>
+    <string name="geography_q5_info">One of the more stunning views I have had the privilege to see, come to me if you want to see pictures :)</string>
 
-    <string name="geography_q6"></string>
-    <string name="geography_q6_answer"></string>
-    <string name="geography_q6_info"></string>
+    <string name="geography_q6">The Niagara Falls are known to be seperated between which two countries?</string>
+    <string name="geography_q6_answer">USA, Canada</string>
+    <string name="geography_q6_info">It is comprised of 3 distinct waterfalls. While neither are the world\'s highest waterfall,
+        they do consist of the fastest-moving waterfall in the world</string>
 
-    <string name="geography_q7"></string>
-    <string name="geography_q7_answer"></string>
-    <string name="geography_q7_info"></string>
+    <string name="geography_q7">What is the capital of Australia?</string>
+    <string name="geography_q7_answer">Canberra</string>
+    <string name="geography_q7_info">Did you guess Sydney/Melbourne? Everyone does at first. This is one of the most popular
+        "pub quiz" questions, so best you know the answer now :)</string>
 
-    <string name="geography_q8"></string>
-    <string name="geography_q8_answer"></string>
-    <string name="geography_q8_info"></string>
+    <string name="geography_q8">Between which 2 countries is the highest mountain in the world located? (answer in alphabetical order)</string>
+    <string name="geography_q8_answer">Nepal, Tibet</string>
+    <string name="geography_q8_info">While being the tallest and most famous mountain it is actually not close to being the deadliest
+        (regarding percentage of people who end up dying trying to climb it, not total number), that title belongs to Annapurna (another mountain in the same region)</string>
 
-    <string name="geography_q9"></string>
-    <string name="geography_q9_answer"></string>
-    <string name="geography_q9_info"></string>
+    <string name="geography_q9">What is the world\'s youngest country?</string>
+    <string name="geography_q9_answer">South Sudan</string>
+    <string name="geography_q9_info">Established on July 9, 2011 it is only 8 years old! In fact since 2004 four new countries have emerged:
+        Serbia and Montenegro (which used to Yugoslavia) and Kosovo which used to be split between Serbia and Montenegro :)</string>
 
-    <string name="geography_q10"></string>
-    <string name="geography_q10_answer"></string>
-    <string name="geography_q10_info"></string>
+    <string name="geography_q10">Long, long ago when, according to scientific evidence and discovery,
+        almost the entire world was one giant land mass. What was it called?</string>
+    <string name="geography_q10_answer">Pangea</string>
+    <string name="geography_q10_info">This is the main reason why many of the same land based animals exist in different continents,
+        even though they have no way of crossing the oceans!</string>
 
     <!-- MUSIC QUESTIONS -->
-    <string name="music_q1"></string>
-    <string name="music_q1_answer"></string>
-    <string name="music_q1_info"></string>
+    <string name="music_q1">What timeless alternative-rock song was originally written for a movie starring Nicolas Cage about a man
+        willing to give up immortality for love?</string>
+    <string name="music_q1_answer">Iris</string>
+    <string name="music_q1_info">In the original version of the song 5/6 guitar strings are tuned to D in contrast to almost all of the
+        famous pop/rock songs nowadays which use the standard EBGDAE tuning.</string>
 
-    <string name="music_q2"></string>
-    <string name="music_q2_answer"></string>
-    <string name="music_q2_info"></string>
+    <string name="music_q2">What talented musician, and a member of the Rock and Roll Hall of fame, played drums for the legendary Nirvana
+        and later formed the Foo Fighters?</string>
+    <string name="music_q2_answer">Dave Grohl</string>
+    <string name="music_q2_info">Dave Grohl plays many instruments including Drums, Guitar, Bass and even the Keyboard.
+        He once recorded an entire album by himself, playing all of the instruments in the songs, as well as singing!</string>
 
-    <string name="music_q3"></string>
-    <string name="music_q3_answer"></string>
-    <string name="music_q3_info"></string>
+    <string name="music_q3">"You may say I\'m a dreamer, but I\'m not the only one" is part of what revolutionary song?</string>
+    <string name="music_q3_answer">Imagine</string>
+    <string name="music_q3_info">John Lennon released this song during his solo career (after the Beatles),
+        and his wife Yoko Ono is credited with a lot of its contents.</string>
 
-    <string name="music_q4"></string>
-    <string name="music_q4_answer"></string>
-    <string name="music_q4_info"></string>
+    <string name="music_q4">What is the most known song in the entire world, which has been translated to just about every single language?</string>
+    <string name="music_q4_answer">Happy Birthday</string>
+    <string name="music_q4_info">Originally composed in the late 19th century, Happy Birthday was actually copyrighted in Europe until 2017!</string>
 
-    <string name="music_q5"></string>
-    <string name="music_q5_answer"></string>
-    <string name="music_q5_info"></string>
+    <string name="music_q5">Dave Mustaine is the co-founder, vocalist and lead guitarist of the wildly successful heavy metal band Megadeth.
+        What band did he originally play guitar for, before being kicked out abruptly?</string>
+    <string name="music_q5_answer">Metallica</string>
+    <string name="music_q5_info">Even though he went on to have a very successful career, he has stated that he feels like a failure
+        because, driven by vengeance,  he vowed to become more successful than Metallica after he was kicked, but that never happened.</string>
 
-    <string name="music_q6"></string>
-    <string name="music_q6_answer"></string>
-    <string name="music_q6_info"></string>
+    <string name="music_q6">What composer wrote the timeless classic "Eine Kleine Nacht-Musik"?
+        (Even if this looks gibberish try to venture a guess)</string>
+    <string name="music_q6_answer">Mozart</string>
+    <string name="music_q6_info">It is roughly translated to "a little night music" and probably his most recognised work.
+        Bonus: Beethoven was just 15 years younger than Mozart and many of his works are influenced by him</string>
 
-    <string name="music_q7"></string>
-    <string name="music_q7_answer"></string>
-    <string name="music_q7_info"></string>
+    <string name="music_q7">Born in Missouri; what is the name of the one and only Slim Shady (or one half of Bad Meets Evil)</string>
+    <string name="music_q7_answer">Marshall Mathers</string>
+    <string name="music_q7_info">Did you guess Eminem? :) Aside from being labled one of the top 100 greatest artists of all time, he also
+        has an oscar to his name for Best Original Song in "Lose Yourself"</string>
 
-    <string name="music_q8"></string>
-    <string name="music_q8_answer"></string>
-    <string name="music_q8_info"></string>
+    <string name="music_q8">Who is the only musician to be inducted into the Rock and Roll Hall of Fame 3 times?</string>
+    <string name="music_q8_answer">Eric Clapton</string>
+    <string name="music_q8_info">While most known for songs from his later solo career such as "Layla", "Tears in Heaven" and "Wonderful Tonight"
+        nowadays; He began with "The Yardbirds" which famously also included Jimmy Page and Jeff Beck, who along with Clpaton
+        are hailed to belong to the top 10 guitarists of all time</string>
 
-    <string name="music_q9"></string>
-    <string name="music_q9_answer"></string>
-    <string name="music_q9_info"></string>
+    <string name="music_q9">Born in Australia, Tommy Emmanuel is a master of what instrument?</string>
+    <string name="music_q9_answer">Acoustic Guitar</string>
+    <string name="music_q9_info">Using complex fingerstyle techniques and percussive use of the guitar he is able to be a
+        "one man band" (see his TED talk). His works are jaw-dropping and I urge you to listen to a few and even have them in the background
+        when studying since they are instrumental and thus not a distraction</string>
 
-    <string name="music_q10"></string>
-    <string name="music_q10_answer"></string>
-    <string name="music_q10_info"></string>
+    <string name="music_q10">What is the first ever single released by multiple-grammy winning artist Bruno Mars?</string>
+    <string name="music_q10_answer">Just The Way You Are</string>
+    <string name="music_q10_info">This song comes from the album "Doo-Wops and Hooligans" (Doo-wops for the girls
+        and hooligans for the boys). Bonus: The hooligans is then name of the band that Bruno Mars travels with and
+        appear in his music videos.</string>
 
     <!-- SPORTS QUESTIONS -->
-    <string name="sports_q1"></string>
-    <string name="sports_q1_answer"></string>
-    <string name="sports_q1_info"></string>
+    <string name="sports_q1">Who won the first ever Fifa World Cup, which it also hosted?</string>
+    <string name="sports_q1_answer">Uruguay</string>
+    <string name="sports_q1_info">The finals match against Argentina, was and is to this day the only World Cup
+        match not played on the weekend (Wednesday)</string>
 
-    <string name="sports_q2"></string>
-    <string name="sports_q2_answer"></string>
-    <string name="sports_q2_info"></string>
+    <string name="sports_q2">What is the name of New Zealand\'s international sports team?
+        (For the country\'s national sport</string>
+    <string name="sports_q2_answer">All Blacks</string>
+    <string name="sports_q2_info">Their Emblem is the Silver Fern (A unique plant that only grows in NZ
+        and is characterised by the silver color of the under-surface of its leaves)</string>
 
-    <string name="sports_q3"></string>
-    <string name="sports_q3_answer"></string>
-    <string name="sports_q3_info"></string>
+    <string name="sports_q3">What ancient martial art form will make its olympic debut in the 2020 Tokyo Games?</string>
+    <string name="sports_q3_answer">Karate</string>
+    <string name="sports_q3_info">Along with Surfing, Skateboarding, Sport Climbing and Baseball/Softball Karate
+        will make its first appearance as an olympic sport</string>
 
-    <string name="sports_q4"></string>
-    <string name="sports_q4_answer"></string>
-    <string name="sports_q4_info"></string>
+    <string name="sports_q4">What televised sports event holds the record for most expensive advertisement slot? (Within a single country)</string>
+    <string name="sports_q4_answer">Super Bowl</string>
+    <string name="sports_q4_info">In fact, for the 2020 Super Bowl a 30-second ad slot costs as much as 5.6 Million Dollars!
+        No wonder the ads are the real highlight of the game.</string>
 
-    <string name="sports_q5"></string>
-    <string name="sports_q5_answer"></string>
-    <string name="sports_q5_info"></string>
+    <string name="sports_q5">Being only invented in 1891 what sport was originally created to keep athletes
+        indoors during the winter?</string>
+    <string name="sports_q5_answer">Basketball</string>
+    <string name="sports_q5_info">Some sports such as Soccer, Wrestling, Golf, Rugby date back thousands of years
+        while the likes of Football, Basketball, Baseball have existed for less than 200 years.</string>
 
-    <string name="sports_q6"></string>
-    <string name="sports_q6_answer"></string>
-    <string name="sports_q6_info"></string>
+    <string name="sports_q6">While most people are familiar with Horse Racing or Dog Racing, what other animal
+        is popular with racing mostly in the arab countries and Australia?</string>
+    <string name="sports_q6_answer">Camel</string>
+    <string name="sports_q6_info">Yes Camel Racing is a thing! In fact camels can reach speeds of up to 65 Km/h</string>
 
-    <string name="sports_q7"></string>
-    <string name="sports_q7_answer"></string>
-    <string name="sports_q7_info"></string>
+    <string name="sports_q7">The popular phrase "En garde!" is derived from what sport?</string>
+    <string name="sports_q7_answer">Fencing</string>
+    <string name="sports_q7_info">Meaning to assume the on-guard position in fencing this is a part of
+        "En garde! Prêts? Allez!" which vaguely translates to "On your mark - ready - go"</string>
 
-    <string name="sports_q8"></string>
-    <string name="sports_q8_answer"></string>
-    <string name="sports_q8_info"></string>
+    <string name="sports_q8">Cassius Marcellus Clay Jr. is the birth name of what late sports figure?</string>
+    <string name="sports_q8_answer">Muhammad Ali</string>
+    <string name="sports_q8_info">Considered by some as the greatest athlete of the 20th Century, aside from his
+        many feats, Ali was involved in several boxing matches which attracted over a Billion viewers
+        (A record at the time)</string>
 
-    <string name="sports_q9"></string>
-    <string name="sports_q9_answer"></string>
-    <string name="sports_q9_info"></string>
+    <string name="sports_q9">Out of the top 5 Association Football leagues in the world, which club holds
+        the record for most league championships?</string>
+    <string name="sports_q9_answer">Juventus</string>
+    <string name="sports_q9_info">With 35 Serie-A victories they hold the throne, with Real Madrid coming in second
+        at 33. If considering all achieved titles, Barcelona holds that title with 95 trophies</string>
 
-    <string name="sports_q10"></string>
-    <string name="sports_q10_answer"></string>
-    <string name="sports_q10_info"></string>
+    <string name="sports_q10">What is the name of the sport in which contestants must train their
+        bird-of-prey to hunt animals in the wild?</string>
+    <string name="sports_q10_answer">Falconry</string>
+    <string name="sports_q10_info">This sport can be dated back almost 3000 years and was once the
+        "Sport of Kings". Also it is super cool :)</string>
 
     <!-- BOOKS QUESTIONS -->
-    <string name="books_q1"></string>
-    <string name="books_q1_answer"></string>
-    <string name="books_q1_info"></string>
+    <string name="books_q1">What book is described as a dystopian novel that allegorizes the story
+        of schoolboys marooned on an island to investigate mankind\’s inherent savagery</string>
+    <string name="books_q1_answer">Lord Of The Flies</string>
+    <string name="books_q1_info">Aside from being one of my favorite books, it has the best, most profound last sentence
+        of any book I have ever read (Big Spoiler Warning!)</string>
 
-    <string name="books_q2"></string>
-    <string name="books_q2_answer"></string>
-    <string name="books_q2_info"></string>
+    <string name="books_q2">What Nobel Prize winning American Author is known for the novels: "A Farewell to Arms"
+        , "For Whom the Bell Tolls", "The Old Man and the Sea"?</string>
+    <string name="books_q2_answer">Ernest Hemingway</string>
+    <string name="books_q2_info">"The Old Man and the Sea" is based on Hemingway\'s experiences when living in Cuba</string>
 
-    <string name="books_q3"></string>
-    <string name="books_q3_answer"></string>
-    <string name="books_q3_info"></string>
+    <string name="books_q3">Written by James Joyce, and considered by many to be the best novel of all time (or at least the 20th century),
+        what is the name of his creation?</string>
+    <string name="books_q3_answer">Ulysses</string>
+    <string name="books_q3_info">This book is divided into 18 Episodes which are based on Homer\'s poem Odyssey
+        (2nd oldest piece of literature ever). In addition it is regarded of one of the most difficult books to read (if not THE most)
+        in the English language.</string>
 
-    <string name="books_q4"></string>
-    <string name="books_q4_answer"></string>
-    <string name="books_q4_info"></string>
+    <string name="books_q4">What is the name of the infamous creature which Captain Ahab has sworn to kill?</string>
+    <string name="books_q4_answer">Moby Dick</string>
+    <string name="books_q4_info">While Moby Dick is fictional, he was inspired by a real life sperm whale named Mocha Dick.
+        In addition The Pequod (ship in the book) was loosely based on a real whaling ship from the 19th century - The Essex</string>
 
-    <string name="books_q5"></string>
-    <string name="books_q5_answer"></string>
-    <string name="books_q5_info"></string>
+    <string name="books_q5">Most recognised for his TV adaptation, what lovable yellow teddy-bear originally appeared
+        in a book published in 1926? (Alongside his friends Piglet and Eeyore)</string>
+    <string name="books_q5_answer">Winnie-The-Pooh</string>
+    <string name="books_q5_info">Christopher Robin (The boy character in Winnie-The-Pooh) was named after the author\'s son
+        who had a real life teddy bear named, .. Winnie the pooh :)</string>
 
-    <string name="books_q6"></string>
-    <string name="books_q6_answer"></string>
-    <string name="books_q6_info"></string>
+    <string name="books_q6">What is the name of the well known ship in Jules Verne\'s timeless classic
+        "Twenty Thousand Leagues Under the Sea"</string>
+    <string name="books_q6_answer">Nautilus</string>
+    <string name="books_q6_info">The description of the Nautilus in the book closely resemble the appearence
+        of present day submarines even though the book was written over 150 years ago!</string>
 
-    <string name="books_q7"></string>
-    <string name="books_q7_answer"></string>
-    <string name="books_q7_info"></string>
+    <string name="books_q7">What critically acclaimed book explores the themes of Government Surveillance and
+        Totalitarianism (Government that permits no freedom and strikes down on opposition)?</string>
+    <string name="books_q7_answer">1984</string>
+    <string name="books_q7_info">The term "Big Brother" which is commonly used in pop-culture is actually
+        a character in the book. Bonus: Apple\'s legendary ad for The Macintosh in 1984 is based on this book!</string>
 
-    <string name="books_q8"></string>
-    <string name="books_q8_answer"></string>
-    <string name="books_q8_info"></string>
+    <string name="books_q8">What epic play can be described as a tale of two young lovers that are forbidden
+        to be together, and end up taking their own lives out of the pain of their separation?</string>
+    <string name="books_q8_answer">Romeo and Juliet</string>
+    <string name="books_q8_info">While this is not a book, rather a play it is a must know piece of
+        literature contrived almost 500 years ago!</string>
 
-    <string name="books_q9"></string>
-    <string name="books_q9_answer"></string>
-    <string name="books_q9_info"></string>
+    <string name="books_q9">Middle Earth is the setting of what author\'s classic fictional novels?</string>
+    <string name="books_q9_answer">J.R.R. Tolkein</string>
+    <string name="books_q9_info">Tolkein actually conceived and developed many languages for his works, most
+        notably the Elvish Language which is also the most comprehensive and is built up of different
+        dialects.</string>
 
-    <string name="books_q10"></string>
-    <string name="books_q10_answer"></string>
-    <string name="books_q10_info"></string>
+    <string name="books_q10">Alonso Quixano is the name of which famous character in this classical novel
+        bearing the same name?</string>
+    <string name="books_q10_answer">Don Quixote</string>
+    <string name="books_q10_info">Written all the way back in the beginnings of the 1600\'s this book is labeled
+        as the first ever modern novel which paved the way for all future works of literature</string>
 
     <!-- WILDLIFE QUESTIONS -->
-    <string name="wildlife_q1"></string>
-    <string name="wildlife_q1_answer"></string>
-    <string name="wildlife_q1_info"></string>
+    <string name="wildlife_q1">This apex predator of the ocean belongs, despite their misleading name,
+        to the dolphin family.</string>
+    <string name="wildlife_q1_answer">Orca</string>
+    <string name="wildlife_q1_info">Killer Whales have a diverse diet consisting of fish, penguins, seals, sea-lions
+        and even whales! They are a very social and usually hunt in large pods.</string>
 
-    <string name="wildlife_q2"></string>
-    <string name="wildlife_q2_answer"></string>
-    <string name="wildlife_q2_info"></string>
+    <string name="wildlife_q2">The Great Migration is the astounding trek of 1.5 million of what animal across the
+        Serengti in search of water?</string>
+    <string name="wildlife_q2_answer">Wildebeest</string>
+    <string name="wildlife_q2_info">This phenomenon has been well documented and filmed, showing the perilous journey
+        of this species showing the true meaning of strength in numbers.</string>
 
-    <string name="wildlife_q3"></string>
-    <string name="wildlife_q3_answer"></string>
-    <string name="wildlife_q3_info"></string>
+    <string name="wildlife_q3">Aside from the Echidnas what is the only other extant monotreme species
+            (mammal that lays eggs)?</string>
+    <string name="wildlife_q3_answer">Platypus</string>
+    <string name="wildlife_q3_info">They have been described as egg-laying, duck-billed, beaver-tailed, otter-footed which
+        caused scientists to believe it was a fake! Aside from that the male is also a venomous mammal.</string>
 
-    <string name="wildlife_q4"></string>
-    <string name="wildlife_q4_answer"></string>
-    <string name="wildlife_q4_info"></string>
+    <string name="wildlife_q4">What animal is responsible for the mose human deaths per year?</string>
+    <string name="wildlife_q4_answer">Mosquitoes</string>
+    <string name="wildlife_q4_info">While perhaps not that surprising they are responsible for roughly 700,000
+        human deaths per year. Coming in second is, you might have guessed, humans, 3rd - Snakes and 4th - Dogs</string>
 
-    <string name="wildlife_q5"></string>
-    <string name="wildlife_q5_answer"></string>
-    <string name="wildlife_q5_info"></string>
+    <string name="wildlife_q5">What species of bear is the only one to be classified as a marine mammal?</string>
+    <string name="wildlife_q5_answer">Polar Bears</string>
+    <string name="wildlife_q5_info">They spend over 50% of their life hunting for food, with an abysmal hunting success
+        rate of less than 2%. They are not endangered, rather labeled Vulnerable.</string>
 
-    <string name="wildlife_q6"></string>
-    <string name="wildlife_q6_answer"></string>
-    <string name="wildlife_q6_info"></string>
+    <string name="wildlife_q6">What animal is considered to be the closest human relative?</string>
+    <string name="wildlife_q6_answer">Chimpanzee</string>
+    <string name="wildlife_q6_info">Yes, Bonobos could also be correct. In fact together with Orangutans and Gorillas
+        these 4 species make up what is known as "Great Apes" which are the closest primates to humans.</string>
 
-    <string name="wildlife_q7"></string>
-    <string name="wildlife_q7_answer"></string>
-    <string name="wildlife_q7_info"></string>
+    <string name="wildlife_q7">A common misconception is that a peacock refers to both genders of the species.
+        What is the female actually called?</string>
+    <string name="wildlife_q7_answer">Peahen</string>
+    <string name="wildlife_q7_info">The extravagant, colorful tail of feathers we see on these animals are unique to the
+        peacock and are used as a part of a courtship ritual to attract the Peahens.</string>
 
-    <string name="wildlife_q8"></string>
-    <string name="wildlife_q8_answer"></string>
-    <string name="wildlife_q8_info"></string>
+    <string name="wildlife_q8">Sometimes called the "Unicorn of the Sea", what is the name of this "tusk" bearing whale?</string>
+    <string name="wildlife_q8_answer">Narwhal</string>
+    <string name="wildlife_q8_info">Narwhals or Narwhales are most closely related to the beluga whales which are the
+        real "white whales" of the ocean. (*Though Moby Dick was a sperm whale not a beluga whale)</string>
 
-    <string name="wildlife_q9"></string>
-    <string name="wildlife_q9_answer"></string>
-    <string name="wildlife_q9_info"></string>
+    <string name="wildlife_q9">What is the fastest species in the animal kingdom?
+        (Including running, swimming, flying or whatever you can conjure)</string>
+    <string name="wildlife_q9_answer">Peregrine Falcon</string>
+    <string name="wildlife_q9_info">Reaching over 320 Km/h while diving from high above during their hunts, these birds-of-prey
+        hold this grand title. In fact they are also used in falconry and some breathtaking videos of this speed in action
+        have been shown live.</string>
 
-    <string name="wildlife_q10"></string>
-    <string name="wildlife_q10_answer"></string>
-    <string name="wildlife_q10_info"></string>
+    <string name="wildlife_q10">The internationally known spanish fiesta dance is based off of the movements of what animal?</string>
+    <string name="wildlife_q10_answer">Flamingo</string>
+    <string name="wildlife_q10_info">The flamingos are actually white colored birds, and they get their pink colorings from the
+        food they eat. (Ever noticed that shrimp turns pick after it is cooked..?)</string>
 
     <!-- GUYS FAVES QUESTIONS -->
-    <string name="guy_q1"></string>
-    <string name="guy_q1_answer"></string>
-    <string name="guy_q1_info"></string>
+    <string name="guy_q1">In what book does the phrase "A man convinced against his will is of the
+        same opinion still."?</string>
+    <string name="guy_q1_answer">How to Win Friends and Influence People</string>
+    <string name="guy_q1_info">This self-help book was originally a companion textbook for the course of the same name
+        offered by Dale Carnegie and is now one of the best selling books of all time.</string>
 
-    <string name="guy_q2"></string>
-    <string name="guy_q2_answer"></string>
-    <string name="guy_q2_info"></string>
+    <string name="guy_q2">Often cited as "Brain Orgasm" what is the name of the phenomenon where one feels a tingly
+        sensation down the back of his neck and upper spine?</string>
+    <string name="guy_q2_answer">ASMR</string>
+    <string name="guy_q2_info">While relatively little is known about the causes of this, results have shown
+            that it can be triggered by all kinds of Sounds or Visual movements which differ from person to person.
+            Not all are fortunate enough to be able to experience ASMR.</string>
 
-    <string name="guy_q3"></string>
-    <string name="guy_q3_answer"></string>
-    <string name="guy_q3_info"></string>
+    <string name="guy_q3">Aside from the triceps what primary muscle does the common push-up exercise train?</string>
+    <string name="guy_q3_answer">Pectoralis Major</string>
+    <string name="guy_q3_info">Because of the size and structure of the Pec Major it is recommended to train at
+        different angles and movements to maximize usage of the muscle fiber and maximise amount of damage inflicted
+        ont the muscle to stimulate growth.</string>
 
-    <string name="guy_q4"></string>
-    <string name="guy_q4_answer"></string>
-    <string name="guy_q4_info"></string>
+    <string name="guy_q4">Beginning as an actress but later becoming a model, women\'s rights activist
+        and even a UN Ambassador, who is this "Queen" I am referring to?</string>
+    <string name="guy_q4_answer">Emma Watson</string>
+    <string name="guy_q4_info">Even though she stated that after Harry Potter she would never have to work for money in her life,
+        she still finished her Bachelor\'s degree in English Literature and worked hard to launch the HeForShe
+        campaign for gender equality. Queen Indeed!</string>
 
-    <string name="guy_q5"></string>
-    <string name="guy_q5_answer"></string>
-    <string name="guy_q5_info"></string>
+    <string name="guy_q5">You might have heard of the Speckled Band, notably being one of the best Sherlock Holmes stories.
+        In the story, what does the speckled band turn out to be?</string>
+    <string name="guy_q5_answer">Snake</string>
+    <string name="guy_q5_info">Sorry for the spoiler ;), but there are many more invigorating tales of these two
+        detectives. (You can find a small collection in my room)</string>
 
-    <string name="guy_q6"></string>
-    <string name="guy_q6_answer"></string>
-    <string name="guy_q6_info"></string>
+    <string name="guy_q6">In what form are the carbohydrates you consume stored in your muscles?</string>
+    <string name="guy_q6_answer">Glycogen</string>
+    <string name="guy_q6_info">Glycogen is essentially the fuel for our muscles which when had at proper levels
+        (meaning consumed enough proper carbs) leads to better performance of the muscle which in turn leads to more hypertrophy</string>
 
-    <string name="guy_q7"></string>
-    <string name="guy_q7_answer"></string>
-    <string name="guy_q7_info"></string>
+    <string name="guy_q7">What is the official bird of the city of Liverpool?</string>
+    <string name="guy_q7_answer">Liver Bird</string>
+    <string name="guy_q7_info">Aside from appearing on the symbol of the city\'s football club, 2 statues of the bird stand high
+        atop the Royal Liver Building overlooking Mersey and the gorgeous pier.</string>
 
-    <string name="guy_q8"></string>
-    <string name="guy_q8_answer"></string>
-    <string name="guy_q8_info"></string>
+    <string name="guy_q8">Udacity, EdX, Coursera, MIT Open Coursewarea and Udemy are all examples of platforms offering what?</string>
+    <string name="guy_q8_answer">MOOC</string>
+    <string name="guy_q8_info">MOOC - Massive Open Online Courses, have taken the world by storm over roughly the past decade
+        for their ability to bring massive amounts of high level education to the entire world.
+        My 2 favorites (Aside from Mobile Development): MIT 6.00.1x and CS50!</string>
 
-    <string name="guy_q9"></string>
-    <string name="guy_q9_answer"></string>
-    <string name="guy_q9_info"></string>
+    <string name="guy_q9">What is the name of the famous poem by Valeri Cox about how oblivious we
+        can sometimes be to our mistakes.</string>
+    <string name="guy_q9_answer">The Cookie Thief</string>
+    <string name="guy_q9_info">Currently my favorite poem, which I have come across not too long ago in a fascinating
+        TED talk. I urge to at least hear the part where the speaker recites the poem since it is a different experience than simply reading it.</string>
 
-    <string name="guy_q10"></string>
-    <string name="guy_q10_answer"></string>
-    <string name="guy_q10_info"></string>
+    <string name="guy_q10">"White lips, Pale face. Breathing in Snowflakes" is the beginning of my favorite song written by which Singer/Songwriter?</string>
+    <string name="guy_q10_answer">Ed Sheeran</string>
+    <string name="guy_q10_info">Ed took a break after the tour of his second album in 2016 to travel around the world and disconnect
+        from social media and all the fame. After completing his latest Divide tour in 2019 (highest grossing tour of all time)
+        he announced another break - so no new music for a while :( </string>
 
 </resources>
